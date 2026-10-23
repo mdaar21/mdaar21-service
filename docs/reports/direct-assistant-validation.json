@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-23",
+  "source_commit": "35f0038",
+  "pages_commit": "486e6cb76f3b7067c998e144d0bf164c29853454",
+  "unit_tests": 69,
+  "targeted_browser_checks": 18,
+  "static_smoke": {
+    "status": "passed",
+    "checked": [
+      "500-meal data",
+      "removed generation card",
+      "clear assistant availability",
+      "zero API requests",
+      "calculator",
+      "20 distinct swaps",
+      "diary add and persistence",
+      "training data",
+      "project-scoped service worker",
+      "offline reload"
+    ],
+    "runtimeErrors": [],
+    "failedResources": []
+  },
+  "separate_consent_required": false,
+  "prompt_sent_on_page_load": false,
+  "backend_deployed": false,
+  "github_ai_live": false,
+  "backend_block": "Existing Netlify backend rejects GitHub origin; deployment previously blocked by account credits. No new Netlify deployment or billing change attempted.",
+  "live_backend_checks": [
+    {
+      "method": "GET",
+      "path": "/api/session",
+      "cross_origin": false,
+      "status": 200,
+      "public_access": true
+    },
+    {
+      "method": "GET",
+      "path": "/api/session",
+      "cross_origin": true,
+      "status": 403,
+      "cors_header": false
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/ai",
+      "cross_origin": true,
+      "status": 405,
+      "cors_header": false
+    }
+  ],
+  "pages_status": "built"
+}

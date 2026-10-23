@@ -1,0 +1,2 @@
+# Local Worker development only. Set the real value privately, never in Git.
+GROQ_API_KEY=

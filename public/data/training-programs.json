@@ -1,0 +1,1159 @@
+{
+  "version": 1,
+  "source": "docs/source/protocoltraining-original.pdf",
+  "transcription": "Visible rendered pages 9,11,12,15,17,23,25,28,30 cross-checked; hidden text layers contain obsolete prescriptions.",
+  "reviewStatus": "Qualified exercise professional review pending; no medical or certification claim.",
+  "prescriptionNote": "Exercise pages visibly print 8·10·12 (RTL order ambiguous), overview prints 12·10·8. App displays 8–12 as a range rather than inventing per-set order. Plank prints 45s·60s·90s; adapt with a qualified coach.",
+  "exercises": {
+    "chest-press": {
+      "id": "chest-press",
+      "name": "ضغط الصدر",
+      "en": "Chest Press",
+      "equipment": "machine",
+      "group": "صدر",
+      "sets": 3,
+      "repRange": [
+        8,
+        12
+      ],
+      "printedReps": [
+        8,
+        10,
+        12
+      ],
+      "restSeconds": 90,
+      "rirRange": [
+        1,
+        3
+      ],
+      "alternatives": [
+        {
+          "name": "Bench Press",
+          "equipment": "barbell",
+          "source": "visible PDF alternative"
+        }
+      ],
+      "video": null,
+      "image": {
+        "src": "/assets/exercises/chest-press.png",
+        "width": 1038,
+        "height": 550,
+        "sourcePage": 9,
+        "sourceCardPath": "figures/p09-14.png",
+        "sha256": "b224ef569b3544916b49463a143841ac3c54aaf560a823c8bacef7e32c091ee6"
+      }
+    },
+    "incline-press": {
+      "id": "incline-press",
+      "name": "ضغط الصدر المائل",
+      "en": "Incline Press",
+      "equipment": "machine",
+      "group": "صدر",
+      "sets": 3,
+      "repRange": [
+        8,
+        12
+      ],
+      "printedReps": [
+        8,
+        10,
+        12
+      ],
+      "restSeconds": 90,
+      "rirRange": [
+        1,
+        3
+      ],
+      "alternatives": [
+        {
+          "name": "Incline DB Press",
+          "equipment": "dumbbell",
+          "source": "visible PDF alternative"
+        }
+      ],
+      "video": null,
+      "image": {
+        "src": "/assets/exercises/incline-press.png",
+        "width": 1038,
+        "height": 550,
+        "sourcePage": 9,
+        "sourceCardPath": "figures/p09-12.png",
+        "sha256": "c56bfd6def7a684d54bdc1833221c3bf3eef6e6bb91e3d5ed13dbd18a25c5992"
+      }
+    },
+    "butterfly": {
+      "id": "butterfly",
+      "name": "تفتيح الصدر بالجهاز",
+      "en": "Butterfly Machine",
+      "equipment": "machine",
+      "group": "صدر",
+      "sets": 3,
+      "repRange": [
+        8,
+        12
+      ],
+      "printedReps": [
+        8,
+        10,
+        12
+      ],
+      "restSeconds": 90,
+      "rirRange": [
+        1,
+        3
+      ],
+      "alternatives": [
+        {
+          "name": "Cable Crossover",
+          "equipment": "cable",
+          "source": "visible PDF alternative"
+        }
+      ],
+      "video": null,
+      "image": {
+        "src": "/assets/exercises/butterfly.png",
+        "width": 1038,
+        "height": 550,
+        "sourcePage": 9,
+        "sourceCardPath": "figures/p09-10.png",
+        "sha256": "dfb55009f983a855fcbb3d4b9e4091374e43cf081c2d7cb8de8e4270e217cc3d"
+      }
+    },
+    "shoulder-press": {
+      "id": "shoulder-press",
+      "name": "ضغط الكتف",
+      "en": "Shoulder Press",
+      "equipment": "machine",
+      "group": "كتف",
+      "sets": 3,
+      "repRange": [
+        8,
+        12
+      ],
+      "printedReps": [
+        8,
+        10,
+        12
+      ],
+      "restSeconds": 90,
+      "rirRange": [
+        1,
+        3
+      ],
+      "alternatives": [
+        {
+          "name": "DB Shoulder Press",
+          "equipment": "dumbbell",
+          "source": "visible PDF alternative"
+        }
+      ],
+      "video": null,
+      "image": {
+        "src": "/assets/exercises/shoulder-press.png",
+        "width": 1038,
+        "height": 550,
+        "sourcePage": 9,
+        "sourceCardPath": "figures/p09-06.png",
+        "sha256": "8a2530561b02327bda31ff9d709ce1e9b6b6856ee3942cce3ba989679e0528a6"
+      }
+    },
+    "lateral-raise": {
+      "id": "lateral-raise",
+      "name": "رفرفة جانبية",
+      "en": "Lateral Raise",
+      "equipment": "dumbbell",
+      "group": "كتف",
+      "sets": 3,
+      "repRange": [
+        8,
+        12
+      ],
+      "printedReps": [
+        8,
+        10,
+        12
+      ],
+      "restSeconds": 90,
+      "rirRange": [
+        1,
+        3
+      ],
+      "alternatives": [
+        {
+          "name": "Cable Lateral Raise",
+          "equipment": "cable",
+          "source": "visible PDF alternative"
+        }
+      ],
+      "video": null,
+      "image": {
+        "src": "/assets/exercises/lateral-raise.png",
+        "width": 1038,
+        "height": 549,
+        "sourcePage": 9,
+        "sourceCardPath": "figures/p09-16.png",
+        "sha256": "0ccd21f3ba0264a314ea71046c38228c485d5559231495a84e032cff15a44f74"
+      }
+    },
+    "overhead-triceps": {
+      "id": "overhead-triceps",
+      "name": "تمديد الترايسبس فوق الرأس",
+      "en": "Overhead Cable Triceps Extension",
+      "equipment": "cable",
+      "group": "ذراع",
+      "sets": 3,
+      "repRange": [
+        8,
+        12
+      ],
+      "printedReps": [
+        8,
+        10,
+        12
+      ],
+      "restSeconds": 90,
+      "rirRange": [
+        1,
+        3
+      ],
+      "alternatives": [
+        {
+          "name": "Overhead DB Extension",
+          "equipment": "dumbbell",
+          "source": "visible PDF alternative"
+        }
+      ],
+      "video": null,
+      "image": {
+        "src": "/assets/exercises/overhead-triceps.png",
+        "width": 1038,
+        "height": 549,
+        "sourcePage": 9,
+        "sourceCardPath": "figures/p09-02.png",
+        "sha256": "1efe9716f4d9c7ed77e59296e3b885148e45ab2c1cdd9881ac25d4cf7b8ff497"
+      }
+    },
+    "triceps-pushdown": {
+      "id": "triceps-pushdown",
+      "name": "دفع الترايسبس للأسفل",
+      "en": "Triceps Pushdown",
+      "equipment": "cable",
+      "group": "ذراع",
+      "sets": 3,
+      "repRange": [
+        8,
+        12
+      ],
+      "printedReps": [
+        8,
+        10,
+        12
+      ],
+      "restSeconds": 90,
+      "rirRange": [
+        1,
+        3
+      ],
+      "alternatives": [],
+      "video": null,
+      "image": {
+        "src": "/assets/exercises/triceps-pushdown.png",
+        "width": 1038,
+        "height": 549,
+        "sourcePage": 9,
+        "sourceCardPath": "figures/p09-11.png",
+        "sha256": "d7c337406e4aacb097385e6040e4acaf87fd35d67497e7b02671a7bdfd2ea8ea"
+      }
+    },
+    "lat-pulldown": {
+      "id": "lat-pulldown",
+      "name": "سحب علوي",
+      "en": "Lat Pulldown",
+      "equipment": "cable",
+      "group": "ظهر",
+      "sets": 3,
+      "repRange": [
+        8,
+        12
+      ],
+      "printedReps": [
+        8,
+        10,
+        12
+      ],
+      "restSeconds": 90,
+      "rirRange": [
+        1,
+        3
+      ],
+      "alternatives": [
+        {
+          "name": "Pull-Up",
+          "equipment": "bodyweight",
+          "source": "visible PDF alternative"
+        }
+      ],
+      "video": null,
+      "image": {
+        "src": "/assets/exercises/lat-pulldown.png",
+        "width": 1038,
+        "height": 550,
+        "sourcePage": 11,
+        "sourceCardPath": "figures/p11-33.png",
+        "sha256": "1cfd1d29eccac34244f642bc049a43dfeea706225a933aa682db0e102f44f0d6"
+      }
+    },
+    "seated-row": {
+      "id": "seated-row",
+      "name": "سحب جالس",
+      "en": "Seated Row",
+      "equipment": "cable",
+      "group": "ظهر",
+      "sets": 3,
+      "repRange": [
+        8,
+        12
+      ],
+      "printedReps": [
+        8,
+        10,
+        12
+      ],
+      "restSeconds": 90,
+      "rirRange": [
+        1,
+        3
+      ],
+      "alternatives": [
+        {
+          "name": "Chest-Supported Row",
+          "equipment": "dumbbell",
+          "source": "visible PDF alternative"
+        }
+      ],
+      "video": null,
+      "image": {
+        "src": "/assets/exercises/seated-row.png",
+        "width": 1038,
+        "height": 550,
+        "sourcePage": 15,
+        "sourceCardPath": "figures/p15-38.png",
+        "sha256": "07c240be224f9d64e0d3baab277b903ac2db9692006bd8deded556ca8b637f5b"
+      }
+    },
+    "tbar-row": {
+      "id": "tbar-row",
+      "name": "تجديف T بار",
+      "en": "T-Bar Row",
+      "equipment": "machine",
+      "group": "ظهر",
+      "sets": 3,
+      "repRange": [
+        8,
+        12
+      ],
+      "printedReps": [
+        8,
+        10,
+        12
+      ],
+      "restSeconds": 90,
+      "rirRange": [
+        1,
+        3
+      ],
+      "alternatives": [
+        {
+          "name": "Barbell Row",
+          "equipment": "barbell",
+          "source": "visible PDF alternative"
+        }
+      ],
+      "video": null,
+      "image": {
+        "src": "/assets/exercises/tbar-row.png",
+        "width": 1038,
+        "height": 550,
+        "sourcePage": 11,
+        "sourceCardPath": "figures/p11-32.png",
+        "sha256": "ad652fcf619113ba14e1d7c331211d2c4f5faeac1f010d5f33329d37c3028f2a"
+      }
+    },
+    "reverse-fly": {
+      "id": "reverse-fly",
+      "name": "رفرفة خلفية",
+      "en": "Reverse Fly",
+      "equipment": "machine",
+      "group": "كتف",
+      "sets": 3,
+      "repRange": [
+        8,
+        12
+      ],
+      "printedReps": [
+        8,
+        10,
+        12
+      ],
+      "restSeconds": 90,
+      "rirRange": [
+        1,
+        3
+      ],
+      "alternatives": [
+        {
+          "name": "Rear Delt Cable Fly",
+          "equipment": "cable",
+          "source": "visible PDF alternative"
+        }
+      ],
+      "video": null,
+      "image": {
+        "src": "/assets/exercises/reverse-fly.png",
+        "width": 1038,
+        "height": 550,
+        "sourcePage": 11,
+        "sourceCardPath": "figures/p11-38.png",
+        "sha256": "afcfc8459a064657fdc170343944fe863acf141ab7b8afdb8eb8cf5b0c2e7d38"
+      }
+    },
+    "machine-curl": {
+      "id": "machine-curl",
+      "name": "بايسبس بالجهاز",
+      "en": "Machine Curl",
+      "equipment": "machine",
+      "group": "ذراع",
+      "sets": 3,
+      "repRange": [
+        8,
+        12
+      ],
+      "printedReps": [
+        8,
+        10,
+        12
+      ],
+      "restSeconds": 90,
+      "rirRange": [
+        1,
+        3
+      ],
+      "alternatives": [
+        {
+          "name": "Preacher Curl",
+          "equipment": "dumbbell",
+          "source": "visible PDF alternative"
+        }
+      ],
+      "video": null,
+      "image": {
+        "src": "/assets/exercises/machine-curl.png",
+        "width": 1038,
+        "height": 550,
+        "sourcePage": 11,
+        "sourceCardPath": "figures/p11-37.png",
+        "sha256": "050140f562b36eb8c309c0ac886bbdb48d8689c8f60c2d72451071f470a55f7f"
+      }
+    },
+    "incline-curl": {
+      "id": "incline-curl",
+      "name": "بايسبس جالس مائل",
+      "en": "Seated Incline Curl",
+      "equipment": "dumbbell",
+      "group": "ذراع",
+      "sets": 3,
+      "repRange": [
+        8,
+        12
+      ],
+      "printedReps": [
+        8,
+        10,
+        12
+      ],
+      "restSeconds": 90,
+      "rirRange": [
+        1,
+        3
+      ],
+      "alternatives": [
+        {
+          "name": "Cable Curl",
+          "equipment": "cable",
+          "source": "visible PDF alternative"
+        }
+      ],
+      "video": null,
+      "image": {
+        "src": "/assets/exercises/incline-curl.png",
+        "width": 1038,
+        "height": 549,
+        "sourcePage": 11,
+        "sourceCardPath": "figures/p11-35.png",
+        "sha256": "e3cb63ac30d13f3ac08ce440a109b064a2a5a36f914abb703fc621eede0abe47"
+      }
+    },
+    "wrist-curl": {
+      "id": "wrist-curl",
+      "name": "ثني الرسغ",
+      "en": "Wrist Curl",
+      "equipment": "dumbbell",
+      "group": "ساعد",
+      "sets": 3,
+      "repRange": [
+        8,
+        12
+      ],
+      "printedReps": [
+        8,
+        10,
+        12
+      ],
+      "restSeconds": 90,
+      "rirRange": [
+        1,
+        3
+      ],
+      "alternatives": [],
+      "video": null,
+      "image": {
+        "src": "/assets/exercises/wrist-curl.png",
+        "width": 1038,
+        "height": 550,
+        "sourcePage": 11,
+        "sourceCardPath": "figures/p11-34.png",
+        "sha256": "51389b61ac7488118a72e0568c0f3f8a037d88292ec3e08837b913c81ffc8aa5"
+      }
+    },
+    "wrist-extension": {
+      "id": "wrist-extension",
+      "name": "مد الرسغ",
+      "en": "Wrist Extension",
+      "equipment": "dumbbell",
+      "group": "ساعد",
+      "sets": 3,
+      "repRange": [
+        8,
+        12
+      ],
+      "printedReps": [
+        8,
+        10,
+        12
+      ],
+      "restSeconds": 90,
+      "rirRange": [
+        1,
+        3
+      ],
+      "alternatives": [],
+      "video": null,
+      "image": {
+        "src": "/assets/exercises/wrist-extension.png",
+        "width": 1038,
+        "height": 550,
+        "sourcePage": 11,
+        "sourceCardPath": "figures/p11-39.png",
+        "sha256": "a678875c6d9e0a81dc20229ae9f75fe3a534f795a36a313381ea480935b137bf"
+      }
+    },
+    "leg-press": {
+      "id": "leg-press",
+      "name": "دفع الأرجل",
+      "en": "Leg Press",
+      "equipment": "machine",
+      "group": "أرجل",
+      "sets": 3,
+      "repRange": [
+        8,
+        12
+      ],
+      "printedReps": [
+        8,
+        10,
+        12
+      ],
+      "restSeconds": 90,
+      "rirRange": [
+        1,
+        3
+      ],
+      "alternatives": [
+        {
+          "name": "Hack Squat",
+          "equipment": "machine",
+          "source": "visible PDF alternative"
+        }
+      ],
+      "video": null,
+      "image": {
+        "src": "/assets/exercises/leg-press.png",
+        "width": 1038,
+        "height": 550,
+        "sourcePage": 12,
+        "sourceCardPath": "figures/p12-05.png",
+        "sha256": "19672f934c1eb1ddc19f958acb2b0ece4f0a3a17a878cd91708c054d0f773fca"
+      }
+    },
+    "leg-extension": {
+      "id": "leg-extension",
+      "name": "تمديد الركبة بالجهاز",
+      "en": "Leg Extension",
+      "equipment": "machine",
+      "group": "أرجل",
+      "sets": 3,
+      "repRange": [
+        8,
+        12
+      ],
+      "printedReps": [
+        8,
+        10,
+        12
+      ],
+      "restSeconds": 90,
+      "rirRange": [
+        1,
+        3
+      ],
+      "alternatives": [],
+      "video": null,
+      "image": {
+        "src": "/assets/exercises/leg-extension.png",
+        "width": 1038,
+        "height": 550,
+        "sourcePage": 12,
+        "sourceCardPath": "figures/p12-08.png",
+        "sha256": "17428588bf8b5f5030d1373d6297911d947ac22571dbd3b61cf934e584921a18"
+      }
+    },
+    "seated-leg-curl": {
+      "id": "seated-leg-curl",
+      "name": "ثني الأرجل جالساً",
+      "en": "Seated Leg Curl",
+      "equipment": "machine",
+      "group": "أرجل",
+      "sets": 3,
+      "repRange": [
+        8,
+        12
+      ],
+      "printedReps": [
+        8,
+        10,
+        12
+      ],
+      "restSeconds": 90,
+      "rirRange": [
+        1,
+        3
+      ],
+      "alternatives": [],
+      "video": null,
+      "image": {
+        "src": "/assets/exercises/seated-leg-curl.png",
+        "width": 1038,
+        "height": 550,
+        "sourcePage": 12,
+        "sourceCardPath": "figures/p12-07.png",
+        "sha256": "e52fda2f653782c5a7ef125f06ff1b9278cd3e8488d3046ae2389f2d28e2d36b"
+      }
+    },
+    "lying-leg-curl": {
+      "id": "lying-leg-curl",
+      "name": "ثني الأرجل مستلقياً",
+      "en": "Lying Leg Curl",
+      "equipment": "machine",
+      "group": "أرجل",
+      "sets": 3,
+      "repRange": [
+        8,
+        12
+      ],
+      "printedReps": [
+        8,
+        10,
+        12
+      ],
+      "restSeconds": 90,
+      "rirRange": [
+        1,
+        3
+      ],
+      "alternatives": [],
+      "video": null,
+      "image": {
+        "src": "/assets/exercises/lying-leg-curl.png",
+        "width": 1038,
+        "height": 550,
+        "sourcePage": 12,
+        "sourceCardPath": "figures/p12-11.png",
+        "sha256": "e4120c03b9a237709932e8c9829859c02858b3a64e5abf973cd9c49c24cdc5e8"
+      }
+    },
+    "hip-adductor": {
+      "id": "hip-adductor",
+      "name": "تقريب الفخذين",
+      "en": "Hip Adductor",
+      "equipment": "machine",
+      "group": "أرجل",
+      "sets": 3,
+      "repRange": [
+        8,
+        12
+      ],
+      "printedReps": [
+        8,
+        10,
+        12
+      ],
+      "restSeconds": 90,
+      "rirRange": [
+        1,
+        3
+      ],
+      "alternatives": [],
+      "video": null,
+      "image": {
+        "src": "/assets/exercises/hip-adductor.png",
+        "width": 1038,
+        "height": 549,
+        "sourcePage": 12,
+        "sourceCardPath": "figures/p12-04.png",
+        "sha256": "cfa0db784ccb8f5c5bd131dd601d32cc8cafa0e4538a4d489ed342c1cf2188f7"
+      }
+    },
+    "calf-raise": {
+      "id": "calf-raise",
+      "name": "رفع السمانة",
+      "en": "Calf Raise",
+      "equipment": "machine",
+      "group": "سمانة",
+      "sets": 3,
+      "repRange": [
+        8,
+        12
+      ],
+      "printedReps": [
+        8,
+        10,
+        12
+      ],
+      "restSeconds": 90,
+      "rirRange": [
+        1,
+        3
+      ],
+      "alternatives": [
+        {
+          "name": "Seated Calf Raise",
+          "equipment": "machine",
+          "source": "visible PDF alternative"
+        }
+      ],
+      "video": null,
+      "image": {
+        "src": "/assets/exercises/calf-raise.png",
+        "width": 1038,
+        "height": 549,
+        "sourcePage": 12,
+        "sourceCardPath": "figures/p12-09.png",
+        "sha256": "3f2738a050e5427041c374228f3030637d6e02c61c92aa9be3c7db13b14e8cf1"
+      }
+    },
+    "cable-crunch": {
+      "id": "cable-crunch",
+      "name": "كرنش بالكابل",
+      "en": "Cable Crunch",
+      "equipment": "cable",
+      "group": "جذع",
+      "sets": 3,
+      "repRange": [
+        8,
+        12
+      ],
+      "printedReps": [
+        8,
+        10,
+        12
+      ],
+      "restSeconds": 90,
+      "rirRange": [
+        1,
+        3
+      ],
+      "alternatives": [
+        {
+          "name": "Crunch",
+          "equipment": "bodyweight",
+          "source": "visible PDF alternative"
+        }
+      ],
+      "video": null,
+      "image": {
+        "src": "/assets/exercises/cable-crunch.png",
+        "width": 1038,
+        "height": 550,
+        "sourcePage": 12,
+        "sourceCardPath": "figures/p12-06.png",
+        "sha256": "5f1f3c8a1ccfd0d33dacfc1868c86c04d2b8ce070a23cd95407a5141363e78b3"
+      }
+    },
+    "plank": {
+      "id": "plank",
+      "name": "بلانك",
+      "en": "Plank",
+      "equipment": "bodyweight",
+      "group": "جذع",
+      "sets": 3,
+      "repRange": null,
+      "printedReps": null,
+      "restSeconds": 90,
+      "rirRange": [
+        1,
+        3
+      ],
+      "alternatives": [],
+      "video": null,
+      "seconds": [
+        45,
+        60,
+        90
+      ],
+      "image": {
+        "src": "/assets/exercises/plank.png",
+        "width": 1038,
+        "height": 550,
+        "sourcePage": 12,
+        "sourceCardPath": "figures/p12-10.png",
+        "sha256": "e04c123c732af5cc30d1d95504b4423392c665985bdda0ef52993faf4e30ee00"
+      }
+    },
+    "shrug": {
+      "id": "shrug",
+      "name": "رفع الكتفين",
+      "en": "Shrug",
+      "equipment": "dumbbell",
+      "group": "ظهر",
+      "sets": 3,
+      "repRange": [
+        8,
+        12
+      ],
+      "printedReps": [
+        8,
+        10,
+        12
+      ],
+      "restSeconds": 90,
+      "rirRange": [
+        1,
+        3
+      ],
+      "alternatives": [],
+      "video": null,
+      "image": {
+        "src": "/assets/exercises/shrug.png",
+        "width": 1038,
+        "height": 550,
+        "sourcePage": 15,
+        "sourceCardPath": "figures/p15-40.png",
+        "sha256": "2cf0719f58b8d6eb36f864f974de3d355e6bfc9e1cac43d13ed6baba83d031b0"
+      }
+    },
+    "biceps-curl": {
+      "id": "biceps-curl",
+      "name": "ثني البايسبس",
+      "en": "Biceps Curl",
+      "equipment": "dumbbell",
+      "group": "ذراع",
+      "sets": 3,
+      "repRange": [
+        8,
+        12
+      ],
+      "printedReps": [
+        8,
+        10,
+        12
+      ],
+      "restSeconds": 90,
+      "rirRange": [
+        1,
+        3
+      ],
+      "alternatives": [
+        {
+          "name": "Cable Barbell Curl",
+          "equipment": "cable",
+          "source": "visible PDF alternative"
+        }
+      ],
+      "video": null,
+      "image": {
+        "src": "/assets/exercises/biceps-curl.png",
+        "width": 1038,
+        "height": 549,
+        "sourcePage": 15,
+        "sourceCardPath": "figures/p15-39.png",
+        "sha256": "314a8896529d9709b067c160b0fe7d621a0cf759058d1c2e22a0febff1db81d1"
+      }
+    },
+    "romanian-deadlift": {
+      "id": "romanian-deadlift",
+      "name": "الرفعة الرومانية",
+      "en": "Romanian Deadlift",
+      "equipment": "barbell",
+      "group": "أرجل",
+      "sets": 3,
+      "repRange": [
+        8,
+        12
+      ],
+      "printedReps": [
+        8,
+        10,
+        12
+      ],
+      "restSeconds": 90,
+      "rirRange": [
+        1,
+        3
+      ],
+      "alternatives": [],
+      "video": null,
+      "image": {
+        "src": "/assets/exercises/romanian-deadlift.png",
+        "width": 1038,
+        "height": 549,
+        "sourcePage": 17,
+        "sourceCardPath": "figures/p17-21.png",
+        "sha256": "65bd3480deba9bf8ae7b9864eb49a5a8289ee5b2788fcb306c535c0226735cf6"
+      }
+    },
+    "hip-thrust": {
+      "id": "hip-thrust",
+      "name": "دفع الورك",
+      "en": "Hip Thrust",
+      "equipment": "barbell",
+      "group": "أرجل",
+      "sets": 3,
+      "repRange": [
+        8,
+        12
+      ],
+      "printedReps": [
+        8,
+        10,
+        12
+      ],
+      "restSeconds": 90,
+      "rirRange": [
+        1,
+        3
+      ],
+      "alternatives": [],
+      "video": null,
+      "image": {
+        "src": "/assets/exercises/hip-thrust.png",
+        "width": 1038,
+        "height": 549,
+        "sourcePage": 17,
+        "sourceCardPath": "figures/p17-16.png",
+        "sha256": "c98ca0f5ec081c5cd5cb3b2b36d0a380ef02459b54b31b8abcf68e643abdf47d"
+      }
+    }
+  },
+  "programs": {
+    "5": {
+      "name": "برنامج 5 أيام",
+      "trainingDays": 5,
+      "days": [
+        {
+          "name": "الدفع",
+          "en": "Push",
+          "exercises": [
+            "chest-press",
+            "incline-press",
+            "butterfly",
+            "shoulder-press",
+            "lateral-raise",
+            "overhead-triceps",
+            "triceps-pushdown"
+          ],
+          "sourcePage": 9,
+          "rest": false
+        },
+        {
+          "name": "السحب",
+          "en": "Pull",
+          "exercises": [
+            "lat-pulldown",
+            "seated-row",
+            "tbar-row",
+            "reverse-fly",
+            "machine-curl",
+            "incline-curl",
+            "wrist-curl",
+            "wrist-extension"
+          ],
+          "sourcePage": 11,
+          "rest": false
+        },
+        {
+          "name": "الأرجل",
+          "en": "Legs",
+          "exercises": [
+            "leg-press",
+            "leg-extension",
+            "seated-leg-curl",
+            "lying-leg-curl",
+            "hip-adductor",
+            "calf-raise",
+            "cable-crunch",
+            "plank"
+          ],
+          "sourcePage": 12,
+          "rest": false
+        },
+        {
+          "name": "راحة",
+          "en": "Rest",
+          "exercises": [],
+          "sourcePage": 13,
+          "rest": true
+        },
+        {
+          "name": "الجزء العلوي",
+          "en": "Upper",
+          "exercises": [
+            "chest-press",
+            "butterfly",
+            "shoulder-press",
+            "lat-pulldown",
+            "seated-row",
+            "shrug",
+            "biceps-curl",
+            "triceps-pushdown"
+          ],
+          "sourcePage": 15,
+          "rest": false
+        },
+        {
+          "name": "الجزء السفلي",
+          "en": "Lower",
+          "exercises": [
+            "leg-press",
+            "leg-extension",
+            "romanian-deadlift",
+            "hip-thrust",
+            "lying-leg-curl",
+            "calf-raise",
+            "cable-crunch",
+            "plank"
+          ],
+          "sourcePage": 17,
+          "rest": false
+        },
+        {
+          "name": "راحة",
+          "en": "Rest",
+          "exercises": [],
+          "sourcePage": 18,
+          "rest": true
+        }
+      ]
+    },
+    "4": {
+      "name": "برنامج 4 أيام",
+      "trainingDays": 4,
+      "days": [
+        {
+          "name": "الجزء العلوي الأول",
+          "en": "Upper A",
+          "exercises": [
+            "chest-press",
+            "butterfly",
+            "shoulder-press",
+            "lat-pulldown",
+            "seated-row",
+            "shrug",
+            "biceps-curl",
+            "triceps-pushdown"
+          ],
+          "sourcePage": 23,
+          "rest": false
+        },
+        {
+          "name": "الجزء السفلي الأول",
+          "en": "Lower A",
+          "exercises": [
+            "leg-press",
+            "leg-extension",
+            "romanian-deadlift",
+            "hip-thrust",
+            "lying-leg-curl",
+            "calf-raise",
+            "cable-crunch",
+            "plank"
+          ],
+          "sourcePage": 25,
+          "rest": false
+        },
+        {
+          "name": "راحة",
+          "en": "Rest",
+          "exercises": [],
+          "sourcePage": 26,
+          "rest": true
+        },
+        {
+          "name": "الجزء العلوي الثاني",
+          "en": "Upper B",
+          "exercises": [
+            "chest-press",
+            "butterfly",
+            "shoulder-press",
+            "lat-pulldown",
+            "seated-row",
+            "shrug",
+            "biceps-curl",
+            "triceps-pushdown"
+          ],
+          "sourcePage": 28,
+          "rest": false
+        },
+        {
+          "name": "الجزء السفلي الثاني",
+          "en": "Lower B",
+          "exercises": [
+            "leg-press",
+            "leg-extension",
+            "romanian-deadlift",
+            "hip-thrust",
+            "lying-leg-curl",
+            "calf-raise",
+            "cable-crunch",
+            "plank"
+          ],
+          "sourcePage": 30,
+          "rest": false
+        },
+        {
+          "name": "راحة",
+          "en": "Rest",
+          "exercises": [],
+          "sourcePage": 31,
+          "rest": true
+        },
+        {
+          "name": "راحة",
+          "en": "Rest",
+          "exercises": [],
+          "sourcePage": 32,
+          "rest": true
+        }
+      ]
+    }
+  }
+}

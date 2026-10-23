@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-23",
+  "scope": "GitHub Pages frontend plus standalone Cloudflare Worker; no legacy hosting deployment",
+  "unit_integration_tests_passed": 86,
+  "browser_regression_checks_passed": 18,
+  "cross_origin_browser_contract_checks": {
+    "scope": "Project-prefixed Pages build and real CSP/browser behavior with controlled cross-origin service fixtures, no live provider",
+    "results": [
+      {
+        "name": "first Send calls configured worker only, no consent gate, token memory and escaped answer",
+        "status": "passed"
+      },
+      {
+        "name": "closing during automatic session setup prevents a late completion",
+        "status": "passed"
+      },
+      {
+        "name": "one unauthorized token refresh recovers automatically without invitation",
+        "status": "passed"
+      },
+      {
+        "name": "provider failure ends one request and re-enables the interface",
+        "status": "passed"
+      }
+    ]
+  },
+  "wrangler_schema": {
+    "version": "4.152.0",
+    "official_npm_archive_integrity_verified": true,
+    "config_validation": "passed"
+  },
+  "build_checks": {
+    "configured_https_origin_and_csp": true,
+    "unconfigured_mode_no_external_requests": true,
+    "project_paths_and_service_worker_module": true,
+    "arabic_and_english_worker_privacy": true
+  },
+  "account_available": false,
+  "cloudflare_credentials_available": false,
+  "worker_deployed": false,
+  "actual_provider_verified": false,
+  "live_github_connected": false,
+  "owner_steps": [
+    "Create Cloudflare account and authorize the repository through the prepared deployment link",
+    "Set GROQ_API_KEY privately as a Worker secret",
+    "Supply the public Worker URL for the Pages build and live verification"
+  ],
+  "secret_values_recorded": false,
+  "billing_changed": false,
+  "main_merged": false
+}

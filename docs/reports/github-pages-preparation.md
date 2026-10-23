@@ -1,0 +1,13 @@
+# GitHub Pages publication preparation — 2026-10-23
+
+The owner requested publication through GitHub. A static build is pushed to the new `gh-pages` branch; the source remains on the existing draft PR branch and main has not been merged. Project paths use `/Mdaar21/`, including fonts, images, data, the privacy link, web manifest and service worker scope. No serverless functions or secrets are published to Pages. A meta content security policy retains the applicable Netlify policy directives.
+
+The generated daily-plan feature remains removed. All 500 calculated meals, calculated planning, swaps, diary, calculator and training remain available. Connected services cannot execute on Pages: availability is disclosed, no discovery/API requests are sent, consent is disabled and the assistant reports its current unavailability. The Netlify build retains its connected-service behavior. Personal browser data from the previous origin is not moved to the new origin; the static build explains that the previous records remain on the previous address.
+
+Validation: 69 unit/integration tests and project checks passed. All 12 layout, home and nutrition browser checks passed on the actual project-prefixed static server, covering four viewport sizes, Arabic/English, the catalogue, planner and original programme covers. An additional browser smoke verified no failed resources, runtime errors or API requests; it also verified 20 distinct swaps, calculator, diary persistence, training data, project-scoped service worker and offline reload.
+
+Publication is **active according to GitHub**. Although the initial create API call returned HTTP 403 (`Resource not accessible by integration`), follow-up repository and Pages reads established `has_pages=true`, the correct `gh-pages` root source and a completed `built` deployment. The latest Pages build reports commit `fea3cbea2c62e1a1d791846e81601bde693aaec5`, updated `2026-10-23T17:14:19Z`, with no build error. No owner activation step remains necessary. No main merge, Netlify deployment or billing change occurred.
+
+Published URL reported by GitHub: https://ha084851234-alt.github.io/Mdaar21/. A direct public HTTP check could not be completed: the workspace outbound proxy denied CONNECT to this host with HTTP 403. No proxy bypass or TLS verification bypass was attempted. This differs from local browser verification and from GitHub's successful build status; no live-browser verification is claimed.
+
+Future updates: rebuild with `python3 scripts/build-github-pages.py --output <empty-directory-outside-repo>` and publish only the generated public directory to the existing static branch. Pages is configured for **Deploy from a branch → gh-pages → /(root)**.

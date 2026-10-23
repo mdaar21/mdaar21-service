@@ -1,0 +1,4 @@
+# Optional PDF export tool. Uses the installed system Chromium; no browser download.
+playwright==1.62.0
+pypdf==6.10.0
+reportlab==4.4.9

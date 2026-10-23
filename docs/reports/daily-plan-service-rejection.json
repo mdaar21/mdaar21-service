@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-22T17:54:15.387Z",
+  "site": "https://mdaar21-global.netlify.app",
+  "scope": "Real mobile UI and live provider responses through trusted Playwright HTTP relay; no mocks or TLS bypass; generic food preferences and fictitious calculator profile only",
+  "checks": [
+    {
+      "check": "live_run_completed",
+      "pass": false,
+      "error": "تعذر إكمال الطلب حالياً. حاول مجدداً. استجابة مدار غير قابلة للاستخدام؛ أعد المحاولة.\n\n1 !== 0\n"
+    }
+  ],
+  "responses": [
+    {
+      "status": 401,
+      "shape": "undefined",
+      "meal_count": null,
+      "error": "auth_required",
+      "service_status": null,
+      "failure": null,
+      "service_class": null,
+      "first_status": null
+    },
+    {
+      "status": 502,
+      "shape": "undefined",
+      "meal_count": null,
+      "error": "invalid_ai_response",
+      "service_status": null,
+      "failure": null,
+      "service_class": null,
+      "first_status": null
+    }
+  ],
+  "secret_values_recorded": false
+}

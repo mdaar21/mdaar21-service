@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-21",
+  "site_url": "https://mdaar21-global.netlify.app",
+  "scope": "Real Chromium mobile UI; responses relayed transparently through Playwright HTTP using the configured trusted platform CA because Chromium lacks the proxy CA. No API/provider response mocks and no invitation entered; a generic greeting only.",
+  "checks": [
+    {
+      "check": "public_settings_hide_access_code",
+      "pass": true
+    },
+    {
+      "check": "no_session_or_ai_post_before_consent",
+      "pass": true
+    },
+    {
+      "check": "live_groq_answer_without_invitation_input",
+      "pass": true
+    },
+    {
+      "check": "automatic_session_cookie_secure",
+      "pass": true
+    },
+    {
+      "check": "consent_withdrawal_clears_assistant_output",
+      "pass": true
+    },
+    {
+      "check": "no_browser_runtime_errors",
+      "pass": true
+    }
+  ],
+  "api_statuses": [
+    401,
+    200
+  ],
+  "secret_values_recorded": false,
+  "tested_deploy_id": "6ad8e69adeec27a9afb5b1d3",
+  "application_commit": "01c672e"
+}

@@ -1,0 +1,66 @@
+{
+  "runAt": "2026-10-21T16:20:33.787Z",
+  "base": "http://127.0.0.1:4173",
+  "results": [
+    {
+      "group": "security",
+      "name": "Netlify CSP allows real module workflows and blocks inline scripts",
+      "status": "passed"
+    },
+    {
+      "group": "privacy",
+      "name": "photo input rejects non-images; selected image compressed and sent only with consent",
+      "status": "passed"
+    },
+    {
+      "group": "privacy",
+      "name": "AI opt-in required; consent enables estimate, editable amounts before saving",
+      "status": "passed"
+    },
+    {
+      "group": "privacy",
+      "name": "settings: export JSON; cancel delete preserves records; language RTL/LTR",
+      "status": "passed"
+    },
+    {
+      "group": "security",
+      "name": "stored diary HTML is displayed as text; malformed state cannot execute",
+      "status": "passed"
+    },
+    {
+      "group": "privacy",
+      "name": "settings: confirmed deletion removes only Mdaar records",
+      "status": "passed"
+    },
+    {
+      "group": "security",
+      "name": "public AI starts automatically after consent without an access code",
+      "status": "passed"
+    },
+    {
+      "group": "security",
+      "name": "revoking consent cancels automatic public-session setup without retrying AI",
+      "status": "passed"
+    },
+    {
+      "group": "security",
+      "name": "AI text/attributes escaped and invitation code never persisted",
+      "status": "passed"
+    },
+    {
+      "group": "privacy",
+      "name": "revoking consent or deleting data aborts in-flight AI without late private output",
+      "status": "passed"
+    },
+    {
+      "group": "assistant",
+      "name": "assistant dialog: mobile header, keyboard Escape/focus and privacy settings link",
+      "status": "passed"
+    },
+    {
+      "group": "assistant",
+      "name": "assistant: consent gate, escaped output, optional target only and withdrawal reset",
+      "status": "passed"
+    }
+  ]
+}

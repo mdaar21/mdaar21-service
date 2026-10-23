@@ -1,0 +1,188 @@
+{
+  "scope": "Original Mdaar visual redesign; Chromium local development server; isolated provider fixtures; grouped runs",
+  "total": 31,
+  "passed": 31,
+  "failed": 0,
+  "groups": [
+    {
+      "runAt": "2026-10-20T18:39:20.969Z",
+      "cases": [
+        {
+          "group": "security",
+          "name": "Netlify CSP allows real module workflows and blocks inline scripts",
+          "status": "passed"
+        },
+        {
+          "group": "security",
+          "name": "stored diary HTML is displayed as text; malformed state cannot execute",
+          "status": "passed"
+        },
+        {
+          "group": "security",
+          "name": "AI text/attributes escaped and invitation code never persisted",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "runAt": "2026-10-20T18:40:47.139Z",
+      "cases": [
+        {
+          "group": "layout",
+          "name": "compact: 9 tabs, RTL/LTR, responsive width, reduced motion",
+          "status": "passed"
+        },
+        {
+          "group": "layout",
+          "name": "mobile: 9 tabs, RTL/LTR, responsive width, reduced motion",
+          "status": "passed"
+        },
+        {
+          "group": "layout",
+          "name": "tablet: 9 tabs, RTL/LTR, responsive width, reduced motion",
+          "status": "passed"
+        },
+        {
+          "group": "layout",
+          "name": "desktop: 9 tabs, RTL/LTR, responsive width, reduced motion",
+          "status": "passed"
+        },
+        {
+          "group": "nutrition",
+          "name": "calculated recipes: 100 distinct, 50/50 goals, search, portions, favorite and diary",
+          "status": "passed"
+        },
+        {
+          "group": "nutrition",
+          "name": "advanced recipe filters stay functional inside their compact disclosure",
+          "status": "passed"
+        },
+        {
+          "group": "nutrition",
+          "name": "planner: calculator targets, weekly totals, allergy/exclusion enforcement and meal swap",
+          "status": "passed"
+        },
+        {
+          "group": "nutrition",
+          "name": "planner rejects impossible restrictions and malformed targets",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "runAt": "2026-10-20T18:40:46.427Z",
+      "cases": [
+        {
+          "group": "legacy",
+          "name": "calculator: Arabic digits, expected equation, invalid ages/negative inputs",
+          "status": "passed"
+        },
+        {
+          "group": "legacy",
+          "name": "diary: original search/add, half portion, favorite, manual grams and persistence",
+          "status": "passed"
+        },
+        {
+          "group": "legacy",
+          "name": "original recipes: 60 retained, filter/search, serving add",
+          "status": "passed"
+        },
+        {
+          "group": "legacy",
+          "name": "weight: record two values, trend chart and delete row",
+          "status": "passed"
+        },
+        {
+          "group": "legacy",
+          "name": "suggested meals: calculator-based render, replacement and diary add",
+          "status": "passed"
+        },
+        {
+          "group": "legacy",
+          "name": "AI original recipe, daily plan and weekly report render mocked structured responses",
+          "status": "passed"
+        },
+        {
+          "group": "privacy",
+          "name": "photo input rejects non-images; selected image compressed and sent only with consent",
+          "status": "passed"
+        },
+        {
+          "group": "privacy",
+          "name": "AI opt-in required; consent enables estimate, editable amounts before saving",
+          "status": "passed"
+        },
+        {
+          "group": "privacy",
+          "name": "settings: export JSON; cancel delete preserves records; language RTL/LTR",
+          "status": "passed"
+        },
+        {
+          "group": "privacy",
+          "name": "settings: confirmed deletion removes only Mdaar records",
+          "status": "passed"
+        },
+        {
+          "group": "privacy",
+          "name": "revoking consent or deleting data aborts in-flight AI without late private output",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "runAt": "2026-10-20T18:40:38.103Z",
+      "cases": [
+        {
+          "group": "assistant",
+          "name": "assistant dialog: mobile header, keyboard Escape/focus and privacy settings link",
+          "status": "passed"
+        },
+        {
+          "group": "assistant",
+          "name": "assistant: consent gate, escaped output, optional target only and withdrawal reset",
+          "status": "passed"
+        },
+        {
+          "group": "training",
+          "name": "workout: both programs, weekly template, set log/update, equipment and rest persistence",
+          "status": "passed"
+        },
+        {
+          "group": "training",
+          "name": "storage quota failure: workout and measurement retain draft/retry; rest reports unsaved",
+          "status": "passed"
+        },
+        {
+          "group": "training",
+          "name": "progress: logged-day averages, accessible weight chart, strength log and measurements",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "runAt": "2026-10-20T18:42:24.800Z",
+      "cases": [
+        {
+          "group": "home",
+          "name": "overview: real empty state, working tool links and programme covers",
+          "status": "passed"
+        },
+        {
+          "group": "home",
+          "name": "overview totals follow actual calculator and diary data without duplicate additions",
+          "status": "passed"
+        },
+        {
+          "group": "home",
+          "name": "overview training count is actual and confirmed deletion resets every summary",
+          "status": "passed"
+        },
+        {
+          "group": "pwa",
+          "name": "offline reload retains calculator/diary; public cache excludes API and personal payloads",
+          "status": "passed"
+        }
+      ]
+    }
+  ]
+}

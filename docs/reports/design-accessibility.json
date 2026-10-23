@@ -1,0 +1,112 @@
+{
+  "tool": "axe-core",
+  "version": "4.14.0",
+  "scope": "Mobile Arabic, 9 tab panels and native assistant dialog; automation does not certify accessibility",
+  "results": [
+    {
+      "tab": "home",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 31
+        }
+      ],
+      "passes": 20
+    },
+    {
+      "tab": "calc",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 7
+        }
+      ],
+      "passes": 26
+    },
+    {
+      "tab": "diary",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 143
+        }
+      ],
+      "passes": 29
+    },
+    {
+      "tab": "rec",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 7
+        }
+      ],
+      "passes": 29
+    },
+    {
+      "tab": "meals",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 10
+        }
+      ],
+      "passes": 26
+    },
+    {
+      "tab": "weight",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 4
+        }
+      ],
+      "passes": 26
+    },
+    {
+      "tab": "training",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 49
+        }
+      ],
+      "passes": 27
+    },
+    {
+      "tab": "progress",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 17
+        }
+      ],
+      "passes": 31
+    },
+    {
+      "tab": "settings",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 4
+        }
+      ],
+      "passes": 26
+    },
+    {
+      "tab": "assistant-dialog",
+      "violations": [],
+      "incomplete": [],
+      "passes": 14
+    }
+  ]
+}

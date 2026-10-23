@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-23",
+  "source_commit": "adf7ec37130185ca7bfe49edeb5d115e661c4830",
+  "static_branch": "gh-pages",
+  "static_commit": "fea3cbea2c62e1a1d791846e81601bde693aaec5",
+  "expected_url": "https://ha084851234-alt.github.io/Mdaar21/",
+  "pages_enabled": true,
+  "published": true,
+  "enable_api_status": 403,
+  "enable_api_message": "Resource not accessible by integration",
+  "unit_tests_passed": 69,
+  "browser_checks_passed": 12,
+  "static_smoke": {
+    "status": "passed",
+    "checked": [
+      "500-meal data",
+      "removed generation card",
+      "clear assistant availability",
+      "zero API requests",
+      "calculator",
+      "20 distinct swaps",
+      "diary add and persistence",
+      "training data",
+      "project-scoped service worker",
+      "offline reload"
+    ],
+    "runtimeErrors": [],
+    "failedResources": []
+  },
+  "billing_changed": false,
+  "main_merged": false,
+  "github_pages_status": "built",
+  "github_pages_build_commit": "fea3cbea2c62e1a1d791846e81601bde693aaec5",
+  "github_pages_build_updated_at": "2026-10-23T17:14:19Z",
+  "source": {
+    "branch": "gh-pages",
+    "path": "/"
+  },
+  "public_http_verified": false,
+  "public_http_verification_block": "Workspace outbound proxy denied CONNECT to ha084851234-alt.github.io with HTTP 403. No proxy bypass attempted."
+}

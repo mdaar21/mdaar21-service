@@ -1,0 +1,762 @@
+{
+  "source": {
+    "title": "USDA National Nutrient Database for Standard Reference, Release 28 (September 2015)",
+    "origin": "https://www.ars.usda.gov/nea/bhnrc/ndl",
+    "mirror": "https://registry.npmjs.org/fda-nutrient-database/-/fda-nutrient-database-1.0.2.tgz",
+    "mirrorIntegrity": "sha512-pUebhBfCDukmJtXdw7IDtEp1idF7zYWymKFw4zVyPXKY/28gy+Ob05eCnJKIlI6mHweiDXBFO1EMrrbW2YZl5A==",
+    "abbrevSha256": "4c42235a001efd5e94ce38001682138056aa1b755427b8a8d315c2b02cd2b85b",
+    "mirrorLicense": "MIT",
+    "retrievedOn": "2026-10-20",
+    "units": "per 100 grams edible portion in the stated preparation state",
+    "status": "source-attributed snapshot; current official cross-check and qualified review pending",
+    "officialAccess": "api.nal.usda.gov returned proxy tunnel 403 during implementation"
+  },
+  "ingredients": {
+    "chicken": {
+      "id": "chicken",
+      "ndbId": "05064",
+      "name": "صدر دجاج مشوي بلا جلد",
+      "nameEn": "roasted chicken breast",
+      "sourceDescription": "CHICKEN,BROILERS OR FRYERS,BREAST,MEAT ONLY,CKD,RSTD",
+      "state": "مطهو",
+      "stateEn": "cooked",
+      "allergens": [],
+      "alternatives": [
+        "salmon",
+        "tuna",
+        "chickpeas"
+      ],
+      "per100g": {
+        "kcal": 165.0,
+        "p": 31.02,
+        "f": 3.57,
+        "c": 0.0,
+        "fiber": 0.0
+      }
+    },
+    "rice": {
+      "id": "rice",
+      "ndbId": "20045",
+      "name": "أرز أبيض طويل الحبة",
+      "nameEn": "cooked white rice",
+      "sourceDescription": "RICE,WHITE,LONG-GRAIN,REG,ENR,CKD",
+      "state": "مطهو",
+      "stateEn": "cooked",
+      "allergens": [],
+      "alternatives": [
+        "quinoa",
+        "potato"
+      ],
+      "per100g": {
+        "kcal": 130.0,
+        "p": 2.69,
+        "f": 0.28,
+        "c": 28.17,
+        "fiber": 0.4
+      }
+    },
+    "oats": {
+      "id": "oats",
+      "ndbId": "08120",
+      "name": "شوفان عادي غير مدعم",
+      "nameEn": "dry rolled oats",
+      "sourceDescription": "CEREALS,OATS,REG & QUICK,NOT FORT,DRY",
+      "state": "جاف",
+      "stateEn": "dry",
+      "allergens": [
+        "gluten"
+      ],
+      "alternatives": [
+        "rice"
+      ],
+      "per100g": {
+        "kcal": 379.0,
+        "p": 13.15,
+        "f": 6.52,
+        "c": 67.7,
+        "fiber": 10.1
+      }
+    },
+    "yogurt": {
+      "id": "yogurt",
+      "ndbId": "01256",
+      "name": "زبادي يوناني سادة خالي الدسم",
+      "nameEn": "nonfat Greek yogurt",
+      "sourceDescription": "YOGURT,GREEK,PLN,NONFAT",
+      "state": "جاهز",
+      "stateEn": "ready to eat",
+      "allergens": [
+        "milk"
+      ],
+      "alternatives": [],
+      "per100g": {
+        "kcal": 59.0,
+        "p": 10.19,
+        "f": 0.39,
+        "c": 3.6,
+        "fiber": 0.0
+      }
+    },
+    "banana": {
+      "id": "banana",
+      "ndbId": "09040",
+      "name": "موز",
+      "nameEn": "banana",
+      "sourceDescription": "BANANAS,RAW",
+      "state": "نيئ، الجزء المأكول",
+      "stateEn": "raw, edible portion",
+      "allergens": [],
+      "alternatives": [
+        "apple",
+        "strawberry"
+      ],
+      "per100g": {
+        "kcal": 89.0,
+        "p": 1.09,
+        "f": 0.33,
+        "c": 22.84,
+        "fiber": 2.6
+      }
+    },
+    "apple": {
+      "id": "apple",
+      "ndbId": "09003",
+      "name": "تفاح بقشره",
+      "nameEn": "apple",
+      "sourceDescription": "APPLES,RAW,WITH SKIN",
+      "state": "نيئ، دون قلب",
+      "stateEn": "raw, core removed",
+      "allergens": [],
+      "alternatives": [
+        "banana",
+        "blueberry"
+      ],
+      "per100g": {
+        "kcal": 52.0,
+        "p": 0.26,
+        "f": 0.17,
+        "c": 13.81,
+        "fiber": 2.4
+      }
+    },
+    "lentils": {
+      "id": "lentils",
+      "ndbId": "16070",
+      "name": "عدس مسلوق بلا ملح",
+      "nameEn": "cooked lentils",
+      "sourceDescription": "LENTILS,MATURE SEEDS,CKD,BLD,WO/SALT",
+      "state": "مطهو",
+      "stateEn": "cooked",
+      "allergens": [],
+      "alternatives": [
+        "chickpeas",
+        "beans"
+      ],
+      "per100g": {
+        "kcal": 116.0,
+        "p": 9.02,
+        "f": 0.38,
+        "c": 20.13,
+        "fiber": 7.9
+      }
+    },
+    "chickpeas": {
+      "id": "chickpeas",
+      "ndbId": "16057",
+      "name": "حمص مسلوق بلا ملح",
+      "nameEn": "cooked chickpeas",
+      "sourceDescription": "CHICKPEAS ,MATURE SEEDS,CKD,BLD,WO/SALT",
+      "state": "مطهو",
+      "stateEn": "cooked",
+      "allergens": [],
+      "alternatives": [
+        "lentils",
+        "beans"
+      ],
+      "per100g": {
+        "kcal": 164.0,
+        "p": 8.86,
+        "f": 2.59,
+        "c": 27.42,
+        "fiber": 7.6
+      }
+    },
+    "tuna": {
+      "id": "tuna",
+      "ndbId": "15121",
+      "name": "تونة خفيفة معلبة بالماء",
+      "nameEn": "drained canned light tuna",
+      "sourceDescription": "FISH,TUNA,LT,CND IN H2O,DRND SOL",
+      "state": "مصفاة",
+      "stateEn": "drained",
+      "allergens": [
+        "fish"
+      ],
+      "alternatives": [
+        "chicken",
+        "chickpeas"
+      ],
+      "per100g": {
+        "kcal": 86.0,
+        "p": 19.44,
+        "f": 0.96,
+        "c": 0.0,
+        "fiber": 0.0
+      }
+    },
+    "egg": {
+      "id": "egg",
+      "ndbId": "01129",
+      "name": "بيض مسلوق جيداً",
+      "nameEn": "hard-boiled egg",
+      "sourceDescription": "EGG,WHL,CKD,HARD-BOILED",
+      "state": "مطهو، دون قشر",
+      "stateEn": "cooked, shell removed",
+      "allergens": [
+        "egg"
+      ],
+      "alternatives": [
+        "chickpeas"
+      ],
+      "per100g": {
+        "kcal": 155.0,
+        "p": 12.58,
+        "f": 10.61,
+        "c": 1.12,
+        "fiber": 0.0
+      }
+    },
+    "oil": {
+      "id": "oil",
+      "ndbId": "04053",
+      "name": "زيت زيتون",
+      "nameEn": "olive oil",
+      "sourceDescription": "OIL,OLIVE,SALAD OR COOKING",
+      "state": "كما يباع",
+      "stateEn": "as sold",
+      "allergens": [],
+      "alternatives": [
+        "avocado"
+      ],
+      "per100g": {
+        "kcal": 884.0,
+        "p": 0.0,
+        "f": 100.0,
+        "c": 0.0,
+        "fiber": 0.0
+      }
+    },
+    "peanut": {
+      "id": "peanut",
+      "ndbId": "16098",
+      "name": "زبدة فول سوداني ناعمة مملحة",
+      "nameEn": "peanut butter",
+      "sourceDescription": "PEANUT BUTTER,SMOOTH STYLE,W/ SALT",
+      "state": "كما تباع",
+      "stateEn": "as sold",
+      "allergens": [
+        "peanut"
+      ],
+      "alternatives": [
+        "almond"
+      ],
+      "per100g": {
+        "kcal": 598.0,
+        "p": 22.21,
+        "f": 51.36,
+        "c": 22.31,
+        "fiber": 5.0
+      }
+    },
+    "almond": {
+      "id": "almond",
+      "ndbId": "12061",
+      "name": "لوز",
+      "nameEn": "almonds",
+      "sourceDescription": "ALMONDS",
+      "state": "كما يباع",
+      "stateEn": "as sold",
+      "allergens": [
+        "tree_nut"
+      ],
+      "alternatives": [],
+      "per100g": {
+        "kcal": 579.0,
+        "p": 21.15,
+        "f": 49.93,
+        "c": 21.55,
+        "fiber": 12.5
+      }
+    },
+    "broccoli": {
+      "id": "broccoli",
+      "ndbId": "11091",
+      "name": "بروكلي مسلوق مصفى بلا ملح",
+      "nameEn": "cooked broccoli",
+      "sourceDescription": "BROCCOLI,CKD,BLD,DRND,WO/SALT",
+      "state": "مطهو",
+      "stateEn": "cooked",
+      "allergens": [],
+      "alternatives": [
+        "spinach",
+        "carrot"
+      ],
+      "per100g": {
+        "kcal": 35.0,
+        "p": 2.38,
+        "f": 0.41,
+        "c": 7.18,
+        "fiber": 3.3
+      }
+    },
+    "milk": {
+      "id": "milk",
+      "ndbId": "01085",
+      "name": "حليب سائل خالي الدسم",
+      "nameEn": "skim milk",
+      "sourceDescription": "MILK,NONFAT,FLUID,W/ ADDED VIT A & VIT D (FAT FREE OR SKIM)",
+      "state": "كما يباع",
+      "stateEn": "as sold",
+      "allergens": [
+        "milk"
+      ],
+      "alternatives": [],
+      "per100g": {
+        "kcal": 34.0,
+        "p": 3.37,
+        "f": 0.08,
+        "c": 4.96,
+        "fiber": 0.0
+      }
+    },
+    "potato": {
+      "id": "potato",
+      "ndbId": "11365",
+      "name": "بطاطس مسلوقة",
+      "nameEn": "boiled potato",
+      "sourceDescription": "POTATOES,BLD,CKD IN SKN,FLESH,WO/SALT",
+      "state": "لُب مطهو دون قشر",
+      "stateEn": "cooked flesh, skin removed",
+      "allergens": [],
+      "alternatives": [
+        "sweetpotato",
+        "rice"
+      ],
+      "per100g": {
+        "kcal": 87.0,
+        "p": 1.87,
+        "f": 0.1,
+        "c": 20.13,
+        "fiber": 1.8
+      }
+    },
+    "quinoa": {
+      "id": "quinoa",
+      "ndbId": "20137",
+      "name": "كينوا",
+      "nameEn": "cooked quinoa",
+      "sourceDescription": "QUINOA,CKD",
+      "state": "مطهوة",
+      "stateEn": "cooked",
+      "allergens": [],
+      "alternatives": [
+        "rice",
+        "potato"
+      ],
+      "per100g": {
+        "kcal": 120.0,
+        "p": 4.4,
+        "f": 1.92,
+        "c": 21.3,
+        "fiber": 2.8
+      }
+    },
+    "cottage": {
+      "id": "cottage",
+      "ndbId": "01014",
+      "name": "جبنة قريش خالية الدسم",
+      "nameEn": "nonfat cottage cheese",
+      "sourceDescription": "CHEESE,COTTAGE,NONFAT,UNCRMD,DRY,LRG OR SML CURD",
+      "state": "كما تباع",
+      "stateEn": "as sold",
+      "allergens": [
+        "milk"
+      ],
+      "alternatives": [],
+      "per100g": {
+        "kcal": 72.0,
+        "p": 10.34,
+        "f": 0.29,
+        "c": 6.66,
+        "fiber": 0.0
+      }
+    },
+    "strawberry": {
+      "id": "strawberry",
+      "ndbId": "09316",
+      "name": "فراولة",
+      "nameEn": "strawberries",
+      "sourceDescription": "STRAWBERRIES,RAW",
+      "state": "نيئة، دون أوراق",
+      "stateEn": "raw, leaves removed",
+      "allergens": [],
+      "alternatives": [
+        "blueberry",
+        "apple"
+      ],
+      "per100g": {
+        "kcal": 32.0,
+        "p": 0.67,
+        "f": 0.3,
+        "c": 7.68,
+        "fiber": 2.0
+      }
+    },
+    "blueberry": {
+      "id": "blueberry",
+      "ndbId": "09050",
+      "name": "توت أزرق",
+      "nameEn": "blueberries",
+      "sourceDescription": "BLUEBERRIES,RAW",
+      "state": "نيئ",
+      "stateEn": "raw",
+      "allergens": [],
+      "alternatives": [
+        "strawberry"
+      ],
+      "per100g": {
+        "kcal": 57.0,
+        "p": 0.74,
+        "f": 0.33,
+        "c": 14.49,
+        "fiber": 2.4
+      }
+    },
+    "carrot": {
+      "id": "carrot",
+      "ndbId": "11124",
+      "name": "جزر",
+      "nameEn": "raw carrot",
+      "sourceDescription": "CARROTS,RAW",
+      "state": "نيئ، الجزء المأكول",
+      "stateEn": "raw, edible portion",
+      "allergens": [],
+      "alternatives": [
+        "cucumber"
+      ],
+      "per100g": {
+        "kcal": 41.0,
+        "p": 0.93,
+        "f": 0.24,
+        "c": 9.58,
+        "fiber": 2.8
+      }
+    },
+    "tomato": {
+      "id": "tomato",
+      "ndbId": "11529",
+      "name": "طماطم",
+      "nameEn": "raw tomato",
+      "sourceDescription": "TOMATOES,RED,RIPE,RAW,YEAR RND AVERAGE",
+      "state": "نيئة",
+      "stateEn": "raw",
+      "allergens": [],
+      "alternatives": [
+        "cucumber"
+      ],
+      "per100g": {
+        "kcal": 18.0,
+        "p": 0.88,
+        "f": 0.2,
+        "c": 3.89,
+        "fiber": 1.2
+      }
+    },
+    "cucumber": {
+      "id": "cucumber",
+      "ndbId": "11205",
+      "name": "خيار بقشره",
+      "nameEn": "raw cucumber",
+      "sourceDescription": "CUCUMBER,WITH PEEL,RAW",
+      "state": "نيئ",
+      "stateEn": "raw",
+      "allergens": [],
+      "alternatives": [
+        "tomato"
+      ],
+      "per100g": {
+        "kcal": 15.0,
+        "p": 0.65,
+        "f": 0.11,
+        "c": 3.63,
+        "fiber": 0.5
+      }
+    },
+    "spinach": {
+      "id": "spinach",
+      "ndbId": "11457",
+      "name": "سبانخ",
+      "nameEn": "raw spinach",
+      "sourceDescription": "SPINACH,RAW",
+      "state": "نيئة",
+      "stateEn": "raw",
+      "allergens": [],
+      "alternatives": [
+        "broccoli"
+      ],
+      "per100g": {
+        "kcal": 23.0,
+        "p": 2.86,
+        "f": 0.39,
+        "c": 3.63,
+        "fiber": 2.2
+      }
+    },
+    "salmon": {
+      "id": "salmon",
+      "ndbId": "15086",
+      "name": "سلمون سوكاي مطهو بحرارة جافة",
+      "nameEn": "cooked sockeye salmon",
+      "sourceDescription": "FISH,SALMON,SOCKEYE,CKD,DRY HEAT",
+      "state": "مطهو",
+      "stateEn": "cooked",
+      "allergens": [
+        "fish"
+      ],
+      "alternatives": [
+        "chicken"
+      ],
+      "per100g": {
+        "kcal": 156.0,
+        "p": 26.48,
+        "f": 5.57,
+        "c": 0.0,
+        "fiber": 0.0
+      }
+    },
+    "pasta": {
+      "id": "pasta",
+      "ndbId": "20125",
+      "name": "مكرونة قمح كامل",
+      "nameEn": "cooked whole-wheat pasta",
+      "sourceDescription": "PASTA,WHOLE-WHEAT,CKD",
+      "state": "مطهوة",
+      "stateEn": "cooked",
+      "allergens": [
+        "gluten"
+      ],
+      "alternatives": [
+        "quinoa",
+        "rice"
+      ],
+      "per100g": {
+        "kcal": 149.0,
+        "p": 5.99,
+        "f": 1.71,
+        "c": 30.07,
+        "fiber": 3.9
+      }
+    },
+    "bread": {
+      "id": "bread",
+      "ndbId": "18075",
+      "name": "خبز قمح كامل تجاري",
+      "nameEn": "whole-wheat bread",
+      "sourceDescription": "BREAD,WHOLE-WHEAT,COMM. PREPARED",
+      "state": "كما يباع",
+      "stateEn": "as sold",
+      "allergens": [
+        "gluten"
+      ],
+      "alternatives": [
+        "rice"
+      ],
+      "per100g": {
+        "kcal": 252.0,
+        "p": 12.45,
+        "f": 3.5,
+        "c": 42.71,
+        "fiber": 6.0
+      }
+    },
+    "beans": {
+      "id": "beans",
+      "ndbId": "16015",
+      "name": "فاصوليا سوداء مسلوقة بلا ملح",
+      "nameEn": "cooked black beans",
+      "sourceDescription": "BEANS,BLACK,MATURE SEEDS,CKD,BLD,WO/SALT",
+      "state": "مطهوة",
+      "stateEn": "cooked",
+      "allergens": [],
+      "alternatives": [
+        "lentils",
+        "chickpeas"
+      ],
+      "per100g": {
+        "kcal": 132.0,
+        "p": 8.86,
+        "f": 0.54,
+        "c": 23.71,
+        "fiber": 8.7
+      }
+    },
+    "honey": {
+      "id": "honey",
+      "ndbId": "19296",
+      "name": "عسل",
+      "nameEn": "honey",
+      "sourceDescription": "HONEY",
+      "state": "كما يباع",
+      "stateEn": "as sold",
+      "allergens": [],
+      "alternatives": [],
+      "per100g": {
+        "kcal": 304.0,
+        "p": 0.3,
+        "f": 0.0,
+        "c": 82.4,
+        "fiber": 0.2
+      }
+    },
+    "walnut": {
+      "id": "walnut",
+      "ndbId": "12155",
+      "name": "جوز إنجليزي",
+      "nameEn": "walnuts",
+      "sourceDescription": "WALNUTS,ENGLISH",
+      "state": "كما يباع",
+      "stateEn": "as sold",
+      "allergens": [
+        "tree_nut"
+      ],
+      "alternatives": [
+        "almond"
+      ],
+      "per100g": {
+        "kcal": 654.0,
+        "p": 15.23,
+        "f": 65.21,
+        "c": 13.71,
+        "fiber": 6.7
+      }
+    },
+    "date": {
+      "id": "date",
+      "ndbId": "09421",
+      "name": "تمر مجدول",
+      "nameEn": "pitted Medjool dates",
+      "sourceDescription": "DATES,MEDJOOL",
+      "state": "دون نوى",
+      "stateEn": "pitted",
+      "allergens": [],
+      "alternatives": [
+        "banana"
+      ],
+      "per100g": {
+        "kcal": 277.0,
+        "p": 1.81,
+        "f": 0.15,
+        "c": 74.97,
+        "fiber": 6.7
+      }
+    },
+    "sweetpotato": {
+      "id": "sweetpotato",
+      "ndbId": "11508",
+      "name": "بطاطا حلوة مخبوزة بلا ملح",
+      "nameEn": "baked sweet potato",
+      "sourceDescription": "SWEET POTATO,CKD,BKD IN SKN,FLESH,WO/ SALT",
+      "state": "لُب مطهو دون قشر",
+      "stateEn": "cooked flesh, skin removed",
+      "allergens": [],
+      "alternatives": [
+        "potato"
+      ],
+      "per100g": {
+        "kcal": 90.0,
+        "p": 2.01,
+        "f": 0.15,
+        "c": 20.71,
+        "fiber": 3.3
+      }
+    },
+    "avocado": {
+      "id": "avocado",
+      "ndbId": "09037",
+      "name": "أفوكادو",
+      "nameEn": "avocado",
+      "sourceDescription": "AVOCADOS,RAW,ALL COMM VAR",
+      "state": "لُب نيئ",
+      "stateEn": "raw flesh",
+      "allergens": [],
+      "alternatives": [
+        "oil"
+      ],
+      "per100g": {
+        "kcal": 160.0,
+        "p": 2.0,
+        "f": 14.66,
+        "c": 8.53,
+        "fiber": 6.7
+      }
+    },
+    "cocoa": {
+      "id": "cocoa",
+      "ndbId": "19165",
+      "name": "كاكاو غير محلى",
+      "nameEn": "unsweetened cocoa",
+      "sourceDescription": "COCOA,DRY PDR,UNSWTND",
+      "state": "مسحوق",
+      "stateEn": "powder",
+      "allergens": [],
+      "alternatives": [],
+      "per100g": {
+        "kcal": 228.0,
+        "p": 19.6,
+        "f": 13.7,
+        "c": 57.9,
+        "fiber": 37.0
+      }
+    },
+    "chia": {
+      "id": "chia",
+      "ndbId": "12006",
+      "name": "بذور شيا",
+      "nameEn": "dried chia seeds",
+      "sourceDescription": "CHIA SEEDS,DRIED",
+      "state": "جافة",
+      "stateEn": "dry",
+      "allergens": [],
+      "alternatives": [],
+      "per100g": {
+        "kcal": 486.0,
+        "p": 16.54,
+        "f": 30.74,
+        "c": 42.12,
+        "fiber": 34.4
+      }
+    },
+    "feta": {
+      "id": "feta",
+      "ndbId": "01019",
+      "name": "جبنة فيتا",
+      "nameEn": "feta cheese",
+      "sourceDescription": "CHEESE,FETA",
+      "state": "كما تباع",
+      "stateEn": "as sold",
+      "allergens": [
+        "milk"
+      ],
+      "alternatives": [
+        "cottage"
+      ],
+      "per100g": {
+        "kcal": 264.0,
+        "p": 14.21,
+        "f": 21.28,
+        "c": 4.09,
+        "fiber": 0.0
+      }
+    }
+  }
+}

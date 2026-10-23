@@ -1,0 +1,28 @@
+{
+  "session_status": 200,
+  "authenticated": true,
+  "plan_status": 200,
+  "error": null,
+  "data_type": "list",
+  "array_length": 4,
+  "root_keys": null,
+  "meal_field_keys": [
+    [
+      "m",
+      "items"
+    ],
+    [
+      "m",
+      "items"
+    ],
+    [
+      "m",
+      "items"
+    ],
+    [
+      "m",
+      "items"
+    ]
+  ],
+  "old_client_accepts": false
+}

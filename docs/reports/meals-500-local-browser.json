@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-22T16:13:58.422Z",
+  "site": "http://127.0.0.1:4173",
+  "scope": "Local mobile browser against actual static catalogue; no AI requests",
+  "checks": [
+    {
+      "check": "catalogue_500_live_data",
+      "pass": true
+    },
+    {
+      "check": "quick_slot_0_20_swaps",
+      "unique_meals": 21,
+      "pass": true
+    },
+    {
+      "check": "quick_slot_1_20_swaps",
+      "unique_meals": 21,
+      "pass": true
+    },
+    {
+      "check": "quick_slot_2_20_swaps",
+      "unique_meals": 21,
+      "pass": true
+    },
+    {
+      "check": "quick_slot_3_20_swaps",
+      "unique_meals": 21,
+      "pass": true
+    },
+    {
+      "check": "planner_20_swaps_and_shared_restrictions",
+      "unique_meals": 21,
+      "pass": true
+    },
+    {
+      "check": "scaled_diary_value",
+      "pass": true
+    },
+    {
+      "check": "mobile_width_and_63_page_library",
+      "pass": true
+    },
+    {
+      "check": "delete_resets_both_plans_no_ai_posts_no_runtime_errors",
+      "pass": true
+    }
+  ]
+}

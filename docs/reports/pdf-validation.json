@@ -1,0 +1,66 @@
+{
+  "edition": "original identity v3 — current website and restored source exercise videos",
+  "pages": 34,
+  "bytes": 15884781,
+  "sha256": "4fab0890fa4aa72d9f4cea119cb3712064f1b9310440ee05184e25f46e23853f",
+  "internalLinks": 67,
+  "externalLinks": 228,
+  "exerciseVideoLinks": 226,
+  "sourceExerciseLinkOccurrences": 113,
+  "sourceLinksMatchedByPage": [
+    {
+      "page": 9,
+      "sourceExerciseLinks": 13,
+      "restoredImageAndCaptionLinks": 26
+    },
+    {
+      "page": 11,
+      "sourceExerciseLinks": 14,
+      "restoredImageAndCaptionLinks": 28
+    },
+    {
+      "page": 12,
+      "sourceExerciseLinks": 11,
+      "restoredImageAndCaptionLinks": 22
+    },
+    {
+      "page": 15,
+      "sourceExerciseLinks": 14,
+      "restoredImageAndCaptionLinks": 28
+    },
+    {
+      "page": 17,
+      "sourceExerciseLinks": 11,
+      "restoredImageAndCaptionLinks": 22
+    },
+    {
+      "page": 23,
+      "sourceExerciseLinks": 14,
+      "restoredImageAndCaptionLinks": 28
+    },
+    {
+      "page": 25,
+      "sourceExerciseLinks": 11,
+      "restoredImageAndCaptionLinks": 22
+    },
+    {
+      "page": 28,
+      "sourceExerciseLinks": 14,
+      "restoredImageAndCaptionLinks": 28
+    },
+    {
+      "page": 30,
+      "sourceExerciseLinks": 11,
+      "restoredImageAndCaptionLinks": 22
+    }
+  ],
+  "siteUrl": "https://mdaar21-global.netlify.app",
+  "qrDecodedTo": "https://mdaar21-global.netlify.app",
+  "tagged": true,
+  "originalCovers": 11,
+  "sourceUnchanged": true,
+  "aliasesMatchMain": true,
+  "under40MB": true,
+  "videoAvailabilityOrTechniqueVerified": false,
+  "note": "Original URI annotations restored at exact image-relative positions, with visible duplicate caption links. Videos were not replaced or professionally reviewed; PDF geometry checks passed during build."
+}

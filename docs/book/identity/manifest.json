@@ -1,0 +1,68 @@
+{
+  "source": "docs/source/protocoltraining-original.pdf",
+  "sourceSha256": "5eff06dbf33476e48ddbcc07833a8d92bfd56d2c39796c02edd1efdabb97e745",
+  "note": "Original cover compositions preserved as vector SVG via Poppler pdftocairo. No source PDF or raster illustration edited. Covers retain original typography, anatomy silhouettes and brand. New HTML supplies accessible names, navigation and current page metadata.",
+  "covers": {
+    "1": {
+      "path": "identity/cover-01.svg",
+      "sourcePage": 1,
+      "sha256": "961c5c3f201059d3ae831b278deac6d72e8c642ebf042e60f4fcd46439fdd9fe"
+    },
+    "7": {
+      "path": "identity/cover-07.svg",
+      "sourcePage": 7,
+      "sha256": "450c82303cc3b90190d86ec618d0077fd3f4a8e6cc41368eb9257ff5d9e39bfb"
+    },
+    "8": {
+      "path": "identity/cover-08.svg",
+      "sourcePage": 8,
+      "sha256": "07994cbe69e9e202bae572ce1a9aa42e90215b2be2f2b62a935772f8f053694b"
+    },
+    "10": {
+      "path": "identity/cover-10.svg",
+      "sourcePage": 10,
+      "sha256": "6765feacae59e18babace0fe4f8b84395888aa71197b89d98aec81df51727692"
+    },
+    "14": {
+      "path": "identity/cover-14.svg",
+      "sourcePage": 14,
+      "sha256": "a2147d6219df46e1745b08443e325f4d0abe0b893a85c6259a68b716a41fd4eb"
+    },
+    "16": {
+      "path": "identity/cover-16.svg",
+      "sourcePage": 16,
+      "sha256": "4521f42e57ab309cb5fe9d180df2f3f3e82d33d8bc0350ca69d446fa714de420"
+    },
+    "21": {
+      "path": "identity/cover-21.svg",
+      "sourcePage": 21,
+      "sha256": "49f69442c8e21196947c1350fb66dd51b1c926cd561fbde6ede6eefb3cdf3c7c"
+    },
+    "22": {
+      "path": "identity/cover-22.svg",
+      "sourcePage": 22,
+      "sha256": "b173a69b81d1be9a5208de7d490b27bc527972a53c64220d5ee80115c52e9aaf"
+    },
+    "24": {
+      "path": "identity/cover-24.svg",
+      "sourcePage": 24,
+      "sha256": "ee7ad933a55990a88e2fde85fda6cb58738187ef6bf83ce1e04c79578b42bb86"
+    },
+    "27": {
+      "path": "identity/cover-27.svg",
+      "sourcePage": 27,
+      "sha256": "19c19c4a27895b18b01b3f62b3e3ed9ea7ab2b7a4a5411c83b84d115c8da891b"
+    },
+    "29": {
+      "path": "identity/cover-29.svg",
+      "sourcePage": 29,
+      "sha256": "17eb0f0817b1cda2ced98201a50ede36f76568a970fdc4f94f40ef0d70aac121"
+    }
+  },
+  "logo": {
+    "path": "identity/source-07-00.png",
+    "sourcePage": 7,
+    "imageIndex": 0,
+    "sha256": "3502517554eb7b4287dc7fc5e4a7143666feabfbf7cd4d94e2104b0ecb46799f"
+  }
+}

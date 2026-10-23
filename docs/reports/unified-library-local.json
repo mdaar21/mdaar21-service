@@ -1,0 +1,157 @@
+{
+  "scope": "Unified recipe catalogue and neutral Mdaar interface; provider responses mocked where requested",
+  "runs": [
+    {
+      "runAt": "2026-10-22T16:30:49.222Z",
+      "base": "http://127.0.0.1:4173",
+      "results": [
+        {
+          "group": "legacy",
+          "name": "calculator: Arabic digits, expected equation, invalid ages/negative inputs",
+          "status": "passed"
+        },
+        {
+          "group": "legacy",
+          "name": "diary: original search/add, half portion, favorite, manual grams and persistence",
+          "status": "passed"
+        },
+        {
+          "group": "legacy",
+          "name": "one 500-recipe library: categories, search and diary recipes share current data",
+          "status": "passed"
+        },
+        {
+          "group": "legacy",
+          "name": "weight: record two values, trend chart and delete row",
+          "status": "passed"
+        },
+        {
+          "group": "legacy",
+          "name": "suggested meals: calculator-based render, replacement and diary add",
+          "status": "passed"
+        },
+        {
+          "group": "legacy",
+          "name": "AI original recipe, daily plan and weekly report render mocked structured responses",
+          "status": "passed"
+        },
+        {
+          "group": "nutrition",
+          "name": "Mdaar branding: no technology badges in Arabic/English panels, assistant or privacy",
+          "status": "passed"
+        },
+        {
+          "group": "nutrition",
+          "name": "calculated recipes: 500 distinct, 250/250 goals, search, portions, favorite and diary",
+          "status": "passed"
+        },
+        {
+          "group": "nutrition",
+          "name": "advanced recipe filters stay functional inside their compact disclosure",
+          "status": "passed"
+        },
+        {
+          "group": "nutrition",
+          "name": "planner: calculator targets, weekly totals, allergy/exclusion enforcement and meal swap",
+          "status": "passed"
+        },
+        {
+          "group": "nutrition",
+          "name": "planner rejects impossible restrictions and malformed targets",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "runAt": "2026-10-22T16:31:59.477Z",
+      "base": "http://127.0.0.1:4173",
+      "results": [
+        {
+          "group": "layout",
+          "name": "compact: 9 tabs, RTL/LTR, responsive width, reduced motion",
+          "status": "passed"
+        },
+        {
+          "group": "layout",
+          "name": "mobile: 9 tabs, RTL/LTR, responsive width, reduced motion",
+          "status": "passed"
+        },
+        {
+          "group": "layout",
+          "name": "tablet: 9 tabs, RTL/LTR, responsive width, reduced motion",
+          "status": "passed"
+        },
+        {
+          "group": "layout",
+          "name": "desktop: 9 tabs, RTL/LTR, responsive width, reduced motion",
+          "status": "passed"
+        },
+        {
+          "group": "security",
+          "name": "Netlify CSP allows real module workflows and blocks inline scripts",
+          "status": "passed"
+        },
+        {
+          "group": "privacy",
+          "name": "food entry keeps text search and has no camera or image-upload controls",
+          "status": "passed"
+        },
+        {
+          "group": "privacy",
+          "name": "AI opt-in required; consent enables estimate, editable amounts before saving",
+          "status": "passed"
+        },
+        {
+          "group": "privacy",
+          "name": "settings: export JSON; cancel delete preserves records; language RTL/LTR",
+          "status": "passed"
+        },
+        {
+          "group": "security",
+          "name": "stored diary HTML is displayed as text; malformed state cannot execute",
+          "status": "passed"
+        },
+        {
+          "group": "privacy",
+          "name": "settings: confirmed deletion removes only Mdaar records",
+          "status": "passed"
+        },
+        {
+          "group": "security",
+          "name": "public AI starts automatically after consent without an access code",
+          "status": "passed"
+        },
+        {
+          "group": "security",
+          "name": "revoking consent cancels automatic public-session setup without retrying AI",
+          "status": "passed"
+        },
+        {
+          "group": "security",
+          "name": "AI text/attributes escaped and invitation code never persisted",
+          "status": "passed"
+        },
+        {
+          "group": "privacy",
+          "name": "revoking consent or deleting data aborts in-flight AI without late private output",
+          "status": "passed"
+        },
+        {
+          "group": "assistant",
+          "name": "assistant dialog: mobile header, keyboard Escape/focus and privacy settings link",
+          "status": "passed"
+        },
+        {
+          "group": "assistant",
+          "name": "assistant: consent gate, escaped output, optional target only and withdrawal reset",
+          "status": "passed"
+        },
+        {
+          "group": "pwa",
+          "name": "offline reload retains calculator/diary; public cache excludes API and personal payloads",
+          "status": "passed"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-22T16:17:04.494Z",
+  "site": "https://mdaar21-global.netlify.app",
+  "scope": "Real HTTPS catalogue and UI through trusted Playwright HTTP relay; no response mocks, no AI requests",
+  "checks": [
+    {
+      "check": "catalogue_500_live_data",
+      "pass": true
+    },
+    {
+      "check": "quick_slot_0_20_swaps",
+      "unique_meals": 21,
+      "pass": true
+    },
+    {
+      "check": "quick_slot_1_20_swaps",
+      "unique_meals": 21,
+      "pass": true
+    },
+    {
+      "check": "quick_slot_2_20_swaps",
+      "unique_meals": 21,
+      "pass": true
+    },
+    {
+      "check": "quick_slot_3_20_swaps",
+      "unique_meals": 21,
+      "pass": true
+    },
+    {
+      "check": "planner_20_swaps_and_shared_restrictions",
+      "unique_meals": 21,
+      "pass": true
+    },
+    {
+      "check": "scaled_diary_value",
+      "pass": true
+    },
+    {
+      "check": "mobile_width_and_63_page_library",
+      "pass": true
+    },
+    {
+      "check": "delete_resets_both_plans_no_ai_posts_no_runtime_errors",
+      "pass": true
+    }
+  ],
+  "deploy_id": "6ada36a6f04fc0503397e1a2",
+  "source_commit": "8cf1dcd33fe896eb9e07965a844ff15507d163fd",
+  "zip_sha256": "b4155ab4cf41d4b0e50ab48abe217f11e191e7df9e2fc3322f012a11475233e9"
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>مدار | غذاؤك، تدريبك، وتقدمك</title>
+<meta name="description" content="أدوات مدار العربية لتقدير السعرات، تسجيل الغذاء، متابعة التدريب والتقدم. بيانات محلية وخيارات مساعدة من مدار عند طلبك.">
+<meta name="theme-color" content="#10100f">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="preload" href="/assets/NotoSansArabic-Regular.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body class="mdaar-experience">
+<a class="skip-link" href="#main-content">تجاوز إلى المحتوى</a>
+<div id="app-status" class="toast" role="status" aria-live="polite" hidden></div>
+<div class="wrap">
+<header class="site-header"><img src="/assets/logo.png" alt="شعار مدار"><div class="brand-copy"><b>مدار<span lang="en">MDAAR21</span></b><small>كل خطوة تصنع فارقاً</small></div><button id="language-toggle" class="mini g" type="button" lang="en" aria-label="Switch interface language">EN</button></header>
+<nav class="nav" id="tabs" aria-label="الأقسام"><div class="sidebar-brand"><img src="/assets/logo.png" alt=""><b>مدار<small lang="en">MDAAR21</small></b></div><p class="nav-caption" data-ex-ar="مساحتك الشخصية" data-ex-en="YOUR PERSONAL SPACE">مساحتك الشخصية</p><button data-t="home" class="on"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 10 9-7 9 7M5 9v12h14V9M9 21v-7h6v7"/></svg><span data-ex-ar="الرئيسية" data-ex-en="Overview">الرئيسية</span></button><button data-t="calc"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 7h8M8 12h2M12 12h2M8 16h2M12 16h4"/></svg><span>الحاسبة</span></button><button data-t="diary"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h11a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H6z"/><path d="M9 8h6M9 12h6M9 16h4"/></svg><span>دفتر الأكل</span></button><button data-t="rec"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3v8M5 3v5a2 2 0 0 0 4 0V3M7 11v10M17 3c-2 2-3 5-3 8h3v10"/></svg><span>الوصفات</span></button><button data-t="meals"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3.5"/></svg><span>وجبات اليوم</span></button><button data-t="weight"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18V9a8 8 0 0 1 16 0v9z"/><path d="M12 14l3-4"/></svg><span>الوزن</span></button><button data-t="training"><span aria-hidden="true">↗</span><span>التمارين</span></button><button data-t="progress"><span aria-hidden="true">◷</span><span>التقدم</span></button><button data-t="settings"><span aria-hidden="true">⚙</span><span>الإعدادات</span></button><div class="nav-brand-note"><span class="nav-status-dot"></span><span data-ex-ar="خطوة أقرب لنفسك" data-ex-en="A little closer to yourself">خطوة أقرب لنفسك</span><small lang="en">TRAIN · FUEL · TRANSFORM</small></div></nav>
+<main id="main-content" tabindex="-1">
+<section id="t-home" class="tab home-tab">
+<div class="home-topline"><p class="eyebrow" lang="en">MDAAR21 — YOUR NEXT CHAPTER</p><span class="home-date" id="home-date"></span></div>
+<div class="home-hero">
+ <div class="hero-copy"><span class="hero-edition" data-ex-ar="بروتوكول التحول · مدار" data-ex-en="THE TRANSFORMATION PROTOCOL">بروتوكول التحول · مدار</span><h1><span data-ex-ar="أنت محور" data-ex-en="YOU ARE THE">أنت محور</span><strong data-ex-ar="التغيير." data-ex-en="TURNING POINT.">التغيير.</strong></h1><p class="hero-description" data-ex-ar="غذاء أوضح. تمرين أذكى. وتقدّم تشوفه. كل أدوات رحلتك، في مدار واحد." data-ex-en="Clearer nutrition. Smarter training. Progress you can see. Your journey, in one orbit.">غذاء أوضح. تمرين أذكى. وتقدّم تشوفه. كل أدوات رحلتك، في مدار واحد.</p><div class="hero-actions"><button class="hero-primary" type="button" data-ex-jump="calc"><span data-ex-ar="ابدأ مسارك" data-ex-en="Find your starting point">ابدأ مسارك</span><span aria-hidden="true">↖</span></button><button class="hero-secondary" type="button" data-ex-jump="training"><span data-ex-ar="اكتشف برنامجك" data-ex-en="Explore your training">اكتشف برنامجك</span><span aria-hidden="true">↗</span></button></div><div class="hero-footnote"><span class="fine-star" aria-hidden="true">✦</span><span data-ex-ar="خطوات بسيطة. اختيارات واعية. مسارك أنت." data-ex-en="Simple steps. Intentional choices. Your own journey.">خطوات بسيطة. اختيارات واعية. مسارك أنت.</span></div></div>
+ <div class="hero-art" aria-hidden="true"><div class="orbital-map"><div class="orbit-path orbit-one"></div><div class="orbit-path orbit-two"></div><div class="orbit-path orbit-three"></div><div class="planet-halo"></div><div class="hero-planet"></div><div class="planet-shadow"></div><div class="planet-ring"></div><div class="orbit-star">✧</div><div class="orbit-point point-one"></div><div class="orbit-point point-two"></div><div class="orbit-point point-three"></div><span class="art-coordinate" lang="en">FOOD · FITNESS · FOCUS</span><span class="art-wordmark" lang="en">MDAAR</span><span class="orbit-label label-train" lang="en">01 / TRAIN</span><span class="orbit-label label-fuel" lang="en">02 / FUEL</span><span class="orbit-label label-progress" lang="en">03 / TRANSFORM</span></div></div>
+</div>
+<div class="home-principles"><span><i aria-hidden="true">01</i><b data-ex-ar="اعرف احتياجك" data-ex-en="Know your needs">اعرف احتياجك</b></span><span><i aria-hidden="true">02</i><b data-ex-ar="ابنِ عاداتك" data-ex-en="Build your habits">ابنِ عاداتك</b></span><span><i aria-hidden="true">03</i><b data-ex-ar="تابع تقدّمك" data-ex-en="Follow your progress">تابع تقدّمك</b></span><p lang="en">SMALL STEPS. STRONGER YOU.</p></div>
+<div class="section-heading"><div><p class="eyebrow" lang="en">YOUR DAILY ORBIT</p><h2 data-ex-ar="يومك، بصورة أوضح." data-ex-en="Your day. In focus.">يومك، بصورة أوضح.</h2></div><button class="text-action" type="button" data-ex-jump="diary"><span data-ex-ar="افتح الدفتر" data-ex-en="Open diary">افتح الدفتر</span><span aria-hidden="true">←</span></button></div>
+<div class="daily-orbit-grid">
+ <article class="energy-card"><div class="energy-topline"><span class="small-label" data-ex-ar="طاقة يومك" data-ex-en="TODAY’S ENERGY">طاقة يومك</span><span class="metric-badge" id="home-energy-badge"></span></div><div class="energy-content"><div class="energy-ring" id="home-energy-ring"><div><strong id="home-calories">0</strong><span data-ex-ar="سعرة مسجّلة" data-ex-en="kcal logged">سعرة مسجّلة</span></div></div><div class="energy-target"><span data-ex-ar="هدفك اليومي" data-ex-en="Daily target">هدفك اليومي</span><strong id="home-target">—</strong><p id="home-target-note"></p><button class="text-action" type="button" data-ex-jump="calc"><span data-ex-ar="راجع هدفك" data-ex-en="Review target">راجع هدفك</span><span aria-hidden="true">↖</span></button></div></div><div class="energy-macros"><div><i class="macro-dot protein-dot"></i><span data-ex-ar="بروتين" data-ex-en="Protein">بروتين</span><b id="home-protein">0 g</b></div><div><i class="macro-dot carb-dot"></i><span data-ex-ar="كارب" data-ex-en="Carbs">كارب</span><b id="home-carbs">0 g</b></div><div><i class="macro-dot fat-dot"></i><span data-ex-ar="دهون" data-ex-en="Fat">دهون</span><b id="home-fat">0 g</b></div></div></article>
+ <article class="daily-food-card"><div class="card-heading"><h3 data-ex-ar="أقرب خطوة" data-ex-en="Your next step">أقرب خطوة</h3><span class="outline-icon" aria-hidden="true">↗</span></div><div id="home-next-step"></div><div class="mini-journey"><div><span class="journey-dot"></span><b data-ex-ar="حدّد هدفك" data-ex-en="Set a target">حدّد هدفك</b><small id="home-goal-state"></small></div><div><span class="journey-dot"></span><b data-ex-ar="سجّل غذاءك" data-ex-en="Log your food">سجّل غذاءك</b><small id="home-food-state"></small></div><div><span class="journey-dot"></span><b data-ex-ar="راقب الاتجاه" data-ex-en="Watch the trend">راقب الاتجاه</b><small id="home-weight-state"></small></div></div></article>
+</div>
+<div class="section-heading"><div><p class="eyebrow" lang="en">MADE FOR YOUR EVERYDAY</p><h2 data-ex-ar="كل خطوة، لها أداة." data-ex-en="A tool for every step.">كل خطوة، لها أداة.</h2></div><p class="heading-note" data-ex-ar="اختر اللي تحتاجه، وخلّ البداية بسيطة." data-ex-en="Choose what you need. Keep the start simple.">اختر اللي تحتاجه، وخلّ البداية بسيطة.</p></div>
+<div class="experience-tools">
+ <button class="experience-tool" type="button" data-ex-jump="calc"><span class="tool-number" lang="en">01 / NUTRITION</span><span class="tool-icon" aria-hidden="true">◈</span><h3 data-ex-ar="احسب نقطة البداية" data-ex-en="Find your starting point">احسب نقطة البداية</h3><p data-ex-ar="سعراتك وماكروزك بتقدير واضح، بعيداً عن التخمين." data-ex-en="A clear estimate of your calories and macros.">سعراتك وماكروزك بتقدير واضح، بعيداً عن التخمين.</p><span class="tool-arrow" aria-hidden="true">↖</span></button>
+ <button class="experience-tool" type="button" data-ex-jump="diary"><span class="tool-number" lang="en">02 / AWARENESS</span><span class="tool-icon" aria-hidden="true">▤</span><h3 data-ex-ar="خلّ يومك واضح" data-ex-en="See your day clearly">خلّ يومك واضح</h3><p data-ex-ar="وجباتك وحصصك ومجموع يومك، في دفتر واحد." data-ex-en="Your meals, portions and daily totals in one place.">وجباتك وحصصك ومجموع يومك، في دفتر واحد.</p><span class="tool-arrow" aria-hidden="true">↖</span></button>
+ <button class="experience-tool" type="button" data-ex-jump="rec"><span class="tool-number" lang="en">03 / INSPIRATION</span><span class="tool-icon" aria-hidden="true">♧</span><h3 data-ex-ar="غيّر طعم الروتين" data-ex-en="Refresh your routine">غيّر طعم الروتين</h3><p data-ex-ar="وصفات بمقادير محسوبة وبدائل تناسب اختياراتك." data-ex-en="Gram-based recipes and alternatives for your choices.">وصفات بمقادير محسوبة وبدائل تناسب اختياراتك.</p><span class="tool-arrow" aria-hidden="true">↖</span></button>
+</div>
+<div class="section-heading"><div><p class="eyebrow" lang="en">THE TRANSFORMATION PROTOCOL</p><h2 data-ex-ar="التزامك، على إيقاعك." data-ex-en="Your commitment. Your rhythm.">التزامك، على إيقاعك.</h2></div><button class="text-action" type="button" data-ex-jump="training"><span data-ex-ar="كل التمارين" data-ex-en="Explore training">كل التمارين</span><span aria-hidden="true">←</span></button></div>
+<div class="program-previews"><button class="program-preview program-four" type="button" data-ex-program="4"><span class="preview-kicker" lang="en">MDAAR21 / TRAINING SERIES</span><img class="program-original-cover" src="/assets/brand/program-four.svg" width="595" height="842" loading="lazy" alt="" aria-hidden="true"><div class="preview-copy"><span class="program-label" data-ex-ar="أيام تمرين" data-ex-en="TRAINING DAYS">أيام تمرين</span><h3 data-ex-ar="اتزان وقوة." data-ex-en="Balance & strength.">اتزان وقوة.</h3><p data-ex-ar="علوي وسفلي · جدولك الأسبوعي من بروتوكول التحول" data-ex-en="Upper / Lower · Your weekly transformation protocol">علوي وسفلي · جدولك الأسبوعي من بروتوكول التحول</p><span class="preview-link"><span data-ex-ar="افتح البرنامج" data-ex-en="Open program">افتح البرنامج</span><i aria-hidden="true">↖</i></span></div></button><button class="program-preview program-five" type="button" data-ex-program="5"><span class="preview-kicker" lang="en">MDAAR21 / TRAINING SERIES</span><img class="program-original-cover" src="/assets/brand/program-five.svg" width="595" height="842" loading="lazy" alt="" aria-hidden="true"><div class="preview-copy"><span class="program-label" data-ex-ar="أيام تمرين" data-ex-en="TRAINING DAYS">أيام تمرين</span><h3 data-ex-ar="مساحة أكبر للتركيز." data-ex-en="More room to focus.">مساحة أكبر للتركيز.</h3><p data-ex-ar="دفع وسحب وأرجل وعلوي وسفلي · أسبوعك بخطوات واضحة" data-ex-en="Push / Pull / Legs / Upper / Lower · A focused week">دفع وسحب وأرجل وعلوي وسفلي · أسبوعك بخطوات واضحة</p><span class="preview-link"><span data-ex-ar="افتح البرنامج" data-ex-en="Open program">افتح البرنامج</span><i aria-hidden="true">↖</i></span></div></button></div>
+<p class="training-record-note" id="home-training-count"></p>
+<div class="home-closing"><span aria-hidden="true">✦</span><p data-ex-ar="النتائج تقديرية، والتقدّم شخصي. أدوات تساعدك تختار بوعي؛ ولا تغني عن المختص عند الحاجة." data-ex-en="Estimates are approximate. Progress is personal. These tools support intentional choices and do not replace professional guidance.">النتائج تقديرية، والتقدّم شخصي. أدوات تساعدك تختار بوعي؛ ولا تغني عن المختص عند الحاجة.</p><span lang="en">YOUR JOURNEY. YOUR ORBIT.</span></div>
+</section>
+<section id="t-calc" class="tab" hidden>
+<p class="eyebrow" lang="en">MDAAR / YOUR EVERYDAY PROGRESS</p>
+<h1>كم سعرة تحتاج يومياً؟</h1>
+<p class="sub">أدخل بياناتك واختر هدفك، وتطلع لك السعرات اليومية وتوزيع البروتين والكارب والدهون.</p>
+<div class="grid">
+<form class="card" id="f" novalidate>
+<fieldset><legend>الجنس</legend><div class="seg">
+<input type="radio" name="g" id="gm" value="m" checked><label for="gm">ذكر</label>
+<input type="radio" name="g" id="gf" value="f"><label for="gf">أنثى</label></div></fieldset>
+<div class="row">
+<div class="f"><label for="age">العمر</label><input id="age" type="text" inputmode="numeric" min="18" max="90" placeholder="25"><small>سنة</small></div>
+<div class="f"><label for="w">الوزن</label><input id="w" type="text" inputmode="decimal" min="35" max="250" placeholder="75"><small>كجم</small></div>
+<div class="f"><label for="h">الطول</label><input id="h" type="text" inputmode="numeric" min="120" max="230" placeholder="175"><small>سم</small></div>
+</div>
+<div class="f" style="margin-bottom:16px"><label for="act">مستوى النشاط</label>
+<select id="act">
+<option value="1.2">خامل، شغل مكتبي بدون تمرين</option>
+<option value="1.375">خفيف، تمرين 1 إلى 3 أيام بالأسبوع</option>
+<option value="1.55" selected>متوسط، تمرين 3 إلى 5 أيام</option>
+<option value="1.725">عالي، تمرين 6 إلى 7 أيام</option>
+<option value="1.9">عالي جداً، تمرين شاق أو عمل بدني</option>
+</select></div>
+<fieldset><legend>هدفك</legend><div class="seg">
+<input type="radio" name="goal" id="g1" value="0.8"><label for="g1">تنشيف</label>
+<input type="radio" name="goal" id="g2" value="1" checked><label for="g2">ثبات</label>
+<input type="radio" name="goal" id="g3" value="1.1"><label for="g3">زيادة</label></div></fieldset>
+<p class="hint">للبالغين 18 سنة فأكثر. للحمل والرضاعة والحالات الصحية واضطرابات الأكل: راجع مختصاً بدلاً من الاعتماد على هذه الأداة.</p>
+<button class="go" type="submit">احسب سعراتي</button>
+<p class="err" id="err" role="alert"></p>
+</form>
+<section class="card res" aria-live="polite">
+<div class="empty" id="empty">عبّ بياناتك واضغط «احسب سعراتي» وتطلع نتيجتك هنا.</div>
+<div id="out" hidden>
+<div class="orb">
+<svg viewBox="0 0 300 300" aria-hidden="true"><ellipse cx="150" cy="150" rx="140" ry="52" transform="rotate(-18 150 150)" fill="none" stroke="rgba(224,200,158,.35)" stroke-width="2"/>
+<g class="spin"><circle cx="150" cy="150" r="0" /><g transform="rotate(-18 150 150)"><circle cx="290" cy="150" r="7" fill="#e0c89e"/></g></g></svg>
+<div><div class="num" id="kcal">0</div><div class="unit">سعرة حرارية باليوم</div></div>
+</div>
+<div class="stats"><div><b id="bmr">0</b><span>الحرق الأساسي (BMR)</span></div><div><b id="tdee">0</b><span>إجمالي الحرق مع نشاطك</span></div></div>
+<div class="mac">
+<p><span>بروتين</span><span id="pv"></span></p><div class="bar"><i id="pb"></i></div>
+<p><span>كارب</span><span id="cv"></span></p><div class="bar"><i id="cb"></i></div>
+<p><span>دهون</span><span id="fv"></span></p><div class="bar"><i id="fb"></i></div>
+</div>
+<p class="note" id="water"></p>
+</div>
+<p class="note">النتائج تقديرية بمعادلة Mifflin-St Jeor وليست بديلاً عن استشارة مختص، خصوصاً لو عندك حالة صحية.</p>
+</section>
+</div></section>
+<section id="t-diary" class="tab" hidden>
+<h1>دفتر الأكل اليومي</h1><p class="sub">دوّن كل اللي تاكله وشوف كم باقي لك من سعراتك وماكروزك.</p>
+<div class="grid">
+<div class="card"><div class="hd"><h3>أضف أكلة</h3></div>
+<div class="sr"><input id="q" type="search" placeholder="ابحث: كبسة، تمر، باستا، ستيك..." aria-label="بحث"><input id="qty" type="text" inputmode="decimal" min="1" step="1" value="1" aria-label="الكمية"><select id="ml" aria-label="الوجبة"><option>فطور</option><option>غداء</option><option>عشاء</option><option>سناك</option></select></div>
+<div class="tabs cats" id="chips"><button data-c="all" class="on">الكل</button><button data-c="وجبات رئيسية">وجبات رئيسية</button><button data-c="بروتين">بروتين</button><button data-c="نشويات">نشويات</button><button data-c="ألبان ودهون">ألبان ودهون</button><button data-c="فواكه وخضار">فواكه وخضار</button><button data-c="مشروبات">مشروبات</button><button data-c="حلويات وسناك">حلويات وسناك</button><button data-c="وصفات">وصفات</button><button data-c="المفضلة">⭐ المفضلة</button></div>
+<div class="seg2" id="orig"><button data-f="all" class="on">الكل</button><button data-f="g">خليجي</button><button data-f="i">عالمي</button></div>
+<button class="go aib" id="aib" type="button" style="margin:0 0 8px">✦ ابحث مع مدار عن أي أكلة</button><p class="hint">اكتب اسم الأكلة بالأعلى ثم اضغط الزر، أو جرّب: <button type="button" data-ex="كبسة لحم نعيمي">كبسة لحم</button><button type="button" data-ex="كنافة نابلسية">كنافة نابلسية</button><button type="button" data-ex="شاورما لحم">شاورما لحم</button></p><div id="ai"></div><p class="hint">قاعدة الأطعمة الأصلية قيمها تقريبية وتنتظر توثيق المصادر. راجع الملصق الغذائي عند توفره.</p><div id="fres" class="fl"></div></div>
+<div class="card" style="text-align:start"><details class="manual-entry"><summary>إضافة يدوية من الملصق الغذائي</summary>
+<form id="manual-food" novalidate><div class="f"><label for="manual-name">اسم الطعام</label><input id="manual-name" maxlength="120" required></div><p class="hint">أدخل القيم لكل 100 جم من الملصق؛ نحسب حصتك بالجرام.</p><div class="row"><div class="f"><label for="manual-grams">الوزن بالجرام</label><input id="manual-grams" inputmode="decimal" value="100"></div><div class="f"><label for="manual-k">سعرة / 100 جم</label><input id="manual-k" inputmode="decimal"></div><div class="f"><label for="manual-p">بروتين / 100 جم</label><input id="manual-p" inputmode="decimal"></div><div class="f"><label for="manual-c">كارب / 100 جم</label><input id="manual-c" inputmode="decimal"></div><div class="f"><label for="manual-f">دهون / 100 جم</label><input id="manual-f" inputmode="decimal"></div></div><button class="mini" type="submit">احفظ في الدفتر</button><p id="manual-error" class="err" role="alert"></p></form></details><div class="hd"><h3>أكلت اليوم</h3><span id="dt" class="unit"></span></div><div id="dtot"></div><div id="dl"></div></div>
+</div></section>
+<section id="t-meals" class="tab" hidden>
+<h1>وجبات مقترحة ليومك</h1><p class="sub">توزيع جاهز على 4 وجبات يقارب سعراتك وهدفك. غيّر أي وجبة، وأضفها لدفترك بضغطة.</p>
+<div id="mealbox"></div></section>
+<section id="t-weight" class="tab" hidden>
+<h1>تتبع وزنك</h1><p class="sub">سجّل وزنك كل أسبوع وشوف تقدمك.</p>
+<div class="grid"><div class="card"><div class="sr" style="grid-template-columns:1fr 120px"><input id="wv" type="text" inputmode="decimal" step="0.1" min="30" max="300" placeholder="وزنك اليوم بالكجم" aria-label="الوزن"><button class="mini" id="wadd" type="button">سجّل</button></div><svg id="wch" class="chart" role="img" aria-label="مخطط تغير الوزن" viewBox="0 0 300 150" preserveAspectRatio="none"></svg><p class="note" id="wsum"></p></div>
+<div class="card" style="text-align:start"><div class="hd"><h3>سجل الوزن</h3></div><div id="wl"></div></div></div><div class="card" style="margin-top:18px;text-align:start"><div class="hd"><h3>✦ تقريري الأسبوعي</h3></div><p class="hint">يحلل أكلك ووزنك آخر 7 أيام ويعطيك نصايح مخصصة.</p><button class="go aib" id="wrb" type="button">حلّل أسبوعي</button><div id="wrp"></div></div></section>
+<section id="t-rec" class="tab" hidden>
+<h1>وصفات مدار</h1><p class="sub">500 وجبة بمقاديرها وطريقة تحضيرها. ابحث عن وجبتك، عدّل الحصة وأضفها لدفترك.</p>
+<div id="recipe-request" class="card" style="margin:0 0 18px;text-align:start"><div class="hd"><h3>✦ وصفة على ذوقك</h3></div><div class="srq"><input id="airq" type="search" placeholder="مثال: كبسة دجاج، سلطة سيزر، عصيدة..." aria-label="اسم الوصفة"><button class="mini" id="airb" type="button">اقترح وصفة</button></div><div id="airec"></div></div></section>
+
+<section id="t-training" class="tab" hidden></section>
+<section id="t-progress" class="tab" hidden></section>
+<section id="t-settings" class="tab" hidden>
+<p class="eyebrow" lang="en">YOUR DATA, YOUR CHOICE</p><h1>الإعدادات والخصوصية</h1><p class="sub">تحكّم في بياناتك وفي ما تختار مشاركته.</p>
+<div class="grid"><div class="card"><h2>خدمات مدار</h2><p>عند إرسال طلبك، تُرسل البيانات اللازمة له إلى مزوّد خدمة خارجي لمعالجتها. لا تُرسل سجلاتك بمجرد فتح الموقع. تفاصيل المعالجة في سياسة الخصوصية.</p>
+<p class="hint" data-ex-ar="الاقتراحات تقريبية وليست تشخيصاً أو علاجاً. عند الضغط على إرسال، يبدأ الطلب مباشرة." data-ex-en="Suggestions are approximate, not diagnosis or treatment. Sending starts your request directly.">الاقتراحات تقريبية وليست تشخيصاً أو علاجاً. عند الضغط على إرسال، يبدأ الطلب مباشرة.</p><div class="f" id="ai-invite-controls" hidden><label for="ai-access-code">رمز دعوة مدار</label><input id="ai-access-code" type="password" autocomplete="off" minlength="12" maxlength="256"><div class="gr"><button id="ai-login" class="mini" type="button">تسجيل الدخول</button><button id="ai-logout" class="mini g" type="button">تسجيل الخروج</button></div><p id="ai-session-status" class="hint" role="status">تحتاج خدمة مدار إلى دعوة. أدوات الحساب والتسجيل تعمل محلياً دون دخول.</p></div><p id="ai-public-access" class="hint" hidden>مدار متاح دون رمز دعوة. تبدأ جلسة آمنة تلقائياً عند إرسال طلبك، وتبقى حدود الاستخدام سارية.</p><a href="/privacy.html">تفاصيل سياسة الخصوصية (مسودة للمراجعة القانونية)</a></div>
+<div class="card"><h2>بيانات هذا الجهاز</h2><p>سجل الطعام والوزن والتمارين محفوظ في هذا المتصفح. لا توجد مزامنة بين الأجهزة، ولا نسخة احتياطية على حساب سحابي.</p><div class="gr"><button id="export-data" class="mini" type="button">تصدير بياناتي JSON</button><button id="delete-data" class="mini danger" type="button">حذف بيانات مدار</button></div><p class="hint">احفظ نسخة قبل مسح بيانات المتصفح. الحذف يتطلب تأكيدك ولا يمس بيانات المواقع الأخرى.</p></div></div>
+</section></main>
+<p class="note" id="cl" style="text-align:center"></p><footer>© 2026 Mdaar21 · خطوة واعية، كل يوم</footer>
+</div>
+<script type="module" src="/assets/app.js"></script>
+<script type="module" src="/assets/nutrition.mjs"></script>
+<script type="module" src="/assets/training.mjs"></script>
+<script type="module" src="/assets/pwa.mjs"></script>
+<script type="module" src="/assets/assistant.mjs"></script>
+<script type="module" src="/assets/experience.mjs"></script>
+</body>
+</html>

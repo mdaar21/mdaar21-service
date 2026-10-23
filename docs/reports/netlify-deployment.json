@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-21",
+  "site_url": "https://mdaar21-global.netlify.app",
+  "site_id": "d647753d-0a63-4851-9574-10c9d004629d",
+  "deploy_id": "6ad8d947d05adc2c6516d09a",
+  "source_commit": "209da58",
+  "checks": [
+    {
+      "path": "/",
+      "method": "GET",
+      "status": 200,
+      "expected": 200,
+      "pass": true,
+      "matches_repository": false,
+      "csp_present": true,
+      "matches_repository_after_pretty_url_normalization": true,
+      "note": "Netlify rewrites the privacy.html link to /privacy during HTML post-processing; this is the only byte difference."
+    },
+    {
+      "path": "/privacy.html",
+      "method": "GET",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "path": "/assets/app.js",
+      "method": "GET",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "path": "/api/ai",
+      "method": "GET",
+      "status": 405,
+      "expected": 405,
+      "pass": true,
+      "body": "{\"error\":\"method_not_allowed\"}",
+      "no_store": true
+    },
+    {
+      "path": "/api/ai",
+      "method": "POST",
+      "status": 503,
+      "expected": 503,
+      "pass": true,
+      "body": "{\"error\":\"service_unconfigured\"}",
+      "no_store": true
+    },
+    {
+      "path": "/api/session",
+      "method": "GET",
+      "status": 503,
+      "expected": 503,
+      "pass": true,
+      "body": "{\"error\":\"auth_unconfigured\"}",
+      "no_store": true
+    },
+    {
+      "path": "/api/ai",
+      "method": "POST",
+      "status": 403,
+      "expected": 403,
+      "pass": true,
+      "body": "{\"error\":\"origin_not_allowed\"}",
+      "no_store": true
+    },
+    {
+      "path": "/privacy",
+      "method": "GET",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    }
+  ],
+  "live_groq_redis_tested": false,
+  "automatic_github_deploy_working": false,
+  "provider_secrets_present": false
+}

@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-22T16:36:00.748Z",
+  "site": "https://mdaar21-global.netlify.app",
+  "scope": "Real HTTPS mobile browser with trusted Playwright HTTP relay, no response mocks, no TLS bypass, no provider POST",
+  "checks": [
+    {
+      "check": "one_500_recipe_library_no_legacy_section",
+      "pass": true
+    },
+    {
+      "check": "nine_panels_and_assistant_clean_arabic_english_mobile",
+      "pass": true
+    },
+    {
+      "check": "category_goal_search_scaled_library_add",
+      "pass": true
+    },
+    {
+      "check": "diary_uses_new_catalogue_exact_servings_and_language",
+      "pass": true
+    },
+    {
+      "check": "privacy_brand_copy_preserves_external_provider_disclosure",
+      "pass": true
+    },
+    {
+      "check": "no_runtime_errors_or_provider_posts",
+      "pass": true
+    }
+  ],
+  "deploy_id": "6ada3b32aabfd898842623f7",
+  "source_commit": "0ef6d205eaf470ad915abfc29012cd570e0959c8"
+}

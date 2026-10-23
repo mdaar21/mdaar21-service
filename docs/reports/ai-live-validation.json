@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-21",
+  "site_url": "https://mdaar21-global.netlify.app",
+  "site_id": "d647753d-0a63-4851-9574-10c9d004629d",
+  "final_deploy_id": "6ad8e404b09d69f2e2b5670a",
+  "final_deploy_ready": true,
+  "checks": [
+    {
+      "check": "anonymous_session",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "check": "anonymous_ai_denied",
+      "status": 401,
+      "error": "auth_required",
+      "pass": true
+    },
+    {
+      "check": "real_redis_login",
+      "status": 200,
+      "error": null,
+      "secure_cookie": true,
+      "pass": true
+    },
+    {
+      "check": "real_groq_response",
+      "status": 200,
+      "error": null,
+      "pass": true
+    },
+    {
+      "check": "session_recognized",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "check": "real_redis_minute_limit",
+      "pass": true,
+      "initial_run": "inconclusive across separate HTTP connections / possible minute rollover",
+      "initial_attempts": [
+        {
+          "status": 401,
+          "error": "invalid_access_code",
+          "retry_after": null
+        },
+        {
+          "status": 401,
+          "error": "invalid_access_code",
+          "retry_after": null
+        },
+        {
+          "status": 401,
+          "error": "invalid_access_code",
+          "retry_after": null
+        },
+        {
+          "status": 401,
+          "error": "invalid_access_code",
+          "retry_after": null
+        },
+        {
+          "status": 401,
+          "error": "invalid_access_code",
+          "retry_after": null
+        }
+      ],
+      "attempts": [
+        {
+          "status": 401,
+          "error": "invalid_access_code",
+          "retry_after": null,
+          "server_date": "Wed, 21 Oct 2026 16:12:46 GMT"
+        },
+        {
+          "status": 401,
+          "error": "invalid_access_code",
+          "retry_after": null,
+          "server_date": "Wed, 21 Oct 2026 16:12:47 GMT"
+        },
+        {
+          "status": 401,
+          "error": "invalid_access_code",
+          "retry_after": null,
+          "server_date": "Wed, 21 Oct 2026 16:12:47 GMT"
+        },
+        {
+          "status": 401,
+          "error": "invalid_access_code",
+          "retry_after": null,
+          "server_date": "Wed, 21 Oct 2026 16:12:48 GMT"
+        },
+        {
+          "status": 401,
+          "error": "invalid_access_code",
+          "retry_after": null,
+          "server_date": "Wed, 21 Oct 2026 16:12:48 GMT"
+        },
+        {
+          "status": 429,
+          "error": "limit",
+          "retry_after": "60",
+          "server_date": "Wed, 21 Oct 2026 16:12:48 GMT"
+        },
+        {
+          "status": 429,
+          "error": "limit",
+          "retry_after": "60",
+          "server_date": "Wed, 21 Oct 2026 16:12:49 GMT"
+        }
+      ],
+      "single_persistent_connection": true
+    },
+    {
+      "check": "test_session_logout",
+      "status": 200,
+      "pass": true
+    }
+  ],
+  "ai_active": true,
+  "live_groq_tested": true,
+  "secret_values_recorded": false,
+  "real_user_data_sent": false,
+  "temporary_diagnostic_removed_from_final_deploy": true
+}

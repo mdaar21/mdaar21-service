@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-22",
+  "site": "https://mdaar21-global.netlify.app",
+  "last_published_deploy": "6ada4d77ee8ff03e36409a3b",
+  "candidate_commit": "96596f8",
+  "candidate_published": false,
+  "candidate_live_verified": false,
+  "deployment_status": 403,
+  "reason": "Account credit usage exceeded - new deploys are blocked until credits are added",
+  "local_tests_passed": 74,
+  "zip_sha256": "f85ceeffc5c4980667ac38e0433b5e21aabffa92221ba78ca5b3736510169594",
+  "billing_changed": false
+}

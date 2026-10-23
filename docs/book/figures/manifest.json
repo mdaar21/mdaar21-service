@@ -1,0 +1,2513 @@
+{
+  "source": "docs/source/protocoltraining-original.pdf",
+  "sourceSha256": "5eff06dbf33476e48ddbcc07833a8d92bfd56d2c39796c02edd1efdabb97e745",
+  "rights": "Supplied original images, rights not verified; no new license claim. Extracted unchanged, private review use; review rights before public distribution.",
+  "exercises": {
+    "overhead-triceps": {
+      "exerciseId": "overhead-triceps",
+      "primaryTitle": "Overhead Cable Triceps Extension",
+      "sourcePage": 9,
+      "imageIndex": 2,
+      "path": "figures/p09-02.png",
+      "width": 1038,
+      "height": 549,
+      "sha256": "1efe9716f4d9c7ed77e59296e3b885148e45ab2c1cdd9881ac25d4cf7b8ff497",
+      "videoLinks": [
+        {
+          "url": "https://youtu.be/kqidUIf1eJE?si=NX7Tommrn2J6lZZg",
+          "rectPercent": [
+            4.497992,
+            31.818182,
+            24.698794,
+            46.590909
+          ],
+          "sourcePage": 9,
+          "sourceRect": [
+            54.700001,
+            453.0,
+            116.199997,
+            514.5
+          ]
+        },
+        {
+          "url": "https://youtube.com/shorts/b_r_LW4HEcM?si=3d8McpNsfsaO5ydp",
+          "rectPercent": [
+            38.232931,
+            31.818182,
+            24.698795,
+            46.590909
+          ],
+          "sourcePage": 9,
+          "sourceRect": [
+            138.699997,
+            453.0,
+            200.199997,
+            514.5
+          ]
+        }
+      ]
+    },
+    "shoulder-press": {
+      "exerciseId": "shoulder-press",
+      "primaryTitle": "Shoulder Press",
+      "sourcePage": 9,
+      "imageIndex": 6,
+      "path": "figures/p09-06.png",
+      "width": 1038,
+      "height": 550,
+      "sha256": "8a2530561b02327bda31ff9d709ce1e9b6b6856ee3942cce3ba989679e0528a6",
+      "videoLinks": [
+        {
+          "url": "https://youtube.com/shorts/k6zaPZbB8yI?si=1LeK4NlSJR_t_GMh",
+          "rectPercent": [
+            4.538152,
+            31.90911,
+            24.698797,
+            46.590909
+          ],
+          "sourcePage": 9,
+          "sourceRect": [
+            54.799999,
+            310.619995,
+            116.300003,
+            372.119995
+          ]
+        },
+        {
+          "url": "https://youtube.com/shorts/t2SmvH1iGjg?si=NTXpp7Ux4Bb7V9jl",
+          "rectPercent": [
+            38.273094,
+            31.90911,
+            24.698795,
+            46.590909
+          ],
+          "sourcePage": 9,
+          "sourceRect": [
+            138.800003,
+            310.619995,
+            200.300003,
+            372.119995
+          ]
+        }
+      ]
+    },
+    "butterfly": {
+      "exerciseId": "butterfly",
+      "primaryTitle": "Butterfly Machine",
+      "sourcePage": 9,
+      "imageIndex": 10,
+      "path": "figures/p09-10.png",
+      "width": 1038,
+      "height": 550,
+      "sha256": "dfb55009f983a855fcbb3d4b9e4091374e43cf081c2d7cb8de8e4270e217cc3d",
+      "videoLinks": [
+        {
+          "url": "https://youtu.be/eGjt4lk6g34?si=3sWWisUtmwkX2Bfw",
+          "rectPercent": [
+            4.497997,
+            31.818205,
+            24.698795,
+            46.590909
+          ],
+          "sourcePage": 9,
+          "sourceRect": [
+            314.200012,
+            310.5,
+            375.700012,
+            372.0
+          ]
+        },
+        {
+          "url": "https://youtube.com/shorts/y4RJDSOBEl8?si=hXAcjqsxZ2ULlsLu",
+          "rectPercent": [
+            38.232937,
+            31.818205,
+            24.698795,
+            46.590909
+          ],
+          "sourcePage": 9,
+          "sourceRect": [
+            398.200012,
+            310.5,
+            459.700012,
+            372.0
+          ]
+        }
+      ]
+    },
+    "triceps-pushdown": {
+      "exerciseId": "triceps-pushdown",
+      "primaryTitle": "Triceps Pushdown",
+      "sourcePage": 9,
+      "imageIndex": 11,
+      "path": "figures/p09-11.png",
+      "width": 1038,
+      "height": 549,
+      "sha256": "d7c337406e4aacb097385e6040e4acaf87fd35d67497e7b02671a7bdfd2ea8ea",
+      "videoLinks": [
+        {
+          "url": "https://youtube.com/shorts/u36jNfqh8_U?si=QoYfsy_JUdKulO7p",
+          "rectPercent": [
+            4.497997,
+            31.818182,
+            24.698795,
+            46.590909
+          ],
+          "sourcePage": 9,
+          "sourceRect": [
+            314.200012,
+            595.5,
+            375.700012,
+            657.0
+          ]
+        }
+      ]
+    },
+    "incline-press": {
+      "exerciseId": "incline-press",
+      "primaryTitle": "Incline Press",
+      "sourcePage": 9,
+      "imageIndex": 12,
+      "path": "figures/p09-12.png",
+      "width": 1038,
+      "height": 550,
+      "sha256": "c56bfd6def7a684d54bdc1833221c3bf3eef6e6bb91e3d5ed13dbd18a25c5992",
+      "videoLinks": [
+        {
+          "url": "https://youtube.com/shorts/T0huVIujERo?si=ckmp2aghIyx-U2Kd",
+          "rectPercent": [
+            4.497992,
+            31.818182,
+            24.698794,
+            46.590909
+          ],
+          "sourcePage": 9,
+          "sourceRect": [
+            54.700001,
+            168.0,
+            116.199997,
+            229.5
+          ]
+        },
+        {
+          "url": "https://youtube.com/shorts/Gruq177Psnk?si=5ToAEDAafBu_H1-Y",
+          "rectPercent": [
+            38.232931,
+            31.818182,
+            24.698795,
+            46.590909
+          ],
+          "sourcePage": 9,
+          "sourceRect": [
+            138.699997,
+            168.0,
+            200.199997,
+            229.5
+          ]
+        }
+      ]
+    },
+    "chest-press": {
+      "exerciseId": "chest-press",
+      "primaryTitle": "Chest Press",
+      "sourcePage": 9,
+      "imageIndex": 14,
+      "path": "figures/p09-14.png",
+      "width": 1038,
+      "height": 550,
+      "sha256": "b224ef569b3544916b49463a143841ac3c54aaf560a823c8bacef7e32c091ee6",
+      "videoLinks": [
+        {
+          "url": "https://youtu.be/vnd-GBtTMLI?si=kAHBU6uO7X2tSMGh",
+          "rectPercent": [
+            4.497997,
+            31.818182,
+            24.698795,
+            46.590909
+          ],
+          "sourcePage": 9,
+          "sourceRect": [
+            314.200012,
+            168.0,
+            375.700012,
+            229.5
+          ]
+        },
+        {
+          "url": "https://youtube.com/shorts/_FkbD0FhgVE?si=BF-m3VaiBNEK57wU",
+          "rectPercent": [
+            38.232937,
+            31.84107,
+            24.698795,
+            46.590909
+          ],
+          "sourcePage": 9,
+          "sourceRect": [
+            398.200012,
+            168.030212,
+            459.700012,
+            229.530212
+          ]
+        }
+      ]
+    },
+    "lateral-raise": {
+      "exerciseId": "lateral-raise",
+      "primaryTitle": "Lateral Raise",
+      "sourcePage": 9,
+      "imageIndex": 16,
+      "path": "figures/p09-16.png",
+      "width": 1038,
+      "height": 549,
+      "sha256": "0ccd21f3ba0264a314ea71046c38228c485d5559231495a84e032cff15a44f74",
+      "videoLinks": [
+        {
+          "url": "https://youtube.com/shorts/iK22GwXJji0?si=PpIOReyHSWJ5Fssl",
+          "rectPercent": [
+            4.297194,
+            31.462259,
+            24.698795,
+            46.590886
+          ],
+          "sourcePage": 9,
+          "sourceRect": [
+            313.700012,
+            452.530182,
+            375.200012,
+            514.030151
+          ]
+        },
+        {
+          "url": "https://youtube.com/shorts/23VoAvqwSzo?si=NEZPRSMiJ0cxn7Hi",
+          "rectPercent": [
+            38.032133,
+            31.462259,
+            24.698795,
+            46.590886
+          ],
+          "sourcePage": 9,
+          "sourceRect": [
+            397.700012,
+            452.530182,
+            459.200012,
+            514.030151
+          ]
+        }
+      ]
+    },
+    "tbar-row": {
+      "exerciseId": "tbar-row",
+      "primaryTitle": "T-Bar Row",
+      "sourcePage": 11,
+      "imageIndex": 32,
+      "path": "figures/p11-32.png",
+      "width": 1038,
+      "height": 550,
+      "sha256": "ad652fcf619113ba14e1d7c331211d2c4f5faeac1f010d5f33329d37c3028f2a",
+      "videoLinks": [
+        {
+          "url": "https://youtube.com/shorts/0pGiyBXvA2c?si=T2ZncEeSCuLBHXrd",
+          "rectPercent": [
+            4.297194,
+            31.841093,
+            24.698795,
+            46.590886
+          ],
+          "sourcePage": 11,
+          "sourceRect": [
+            313.700012,
+            310.530212,
+            375.200012,
+            372.030182
+          ]
+        },
+        {
+          "url": "https://youtube.com/shorts/phVtqawIgbk?si=oO5fPS2i8F89FRBM",
+          "rectPercent": [
+            38.032133,
+            31.841093,
+            24.698795,
+            46.590886
+          ],
+          "sourcePage": 11,
+          "sourceRect": [
+            397.700012,
+            310.530212,
+            459.200012,
+            372.030182
+          ]
+        }
+      ]
+    },
+    "lat-pulldown": {
+      "exerciseId": "lat-pulldown",
+      "primaryTitle": "Lat Pulldown",
+      "sourcePage": 11,
+      "imageIndex": 33,
+      "path": "figures/p11-33.png",
+      "width": 1038,
+      "height": 550,
+      "sha256": "1cfd1d29eccac34244f642bc049a43dfeea706225a933aa682db0e102f44f0d6",
+      "videoLinks": [
+        {
+          "url": "https://youtube.com/shorts/51ql2-2kLfA?si=rUy2h16sM7990Tbf",
+          "rectPercent": [
+            4.497997,
+            31.818182,
+            24.698795,
+            46.590909
+          ],
+          "sourcePage": 11,
+          "sourceRect": [
+            314.200012,
+            168.0,
+            375.700012,
+            229.5
+          ]
+        },
+        {
+          "url": "https://youtube.com/shorts/ym1V5H35IpA?si=lIokNLUZcRhDRV3J",
+          "rectPercent": [
+            38.232937,
+            31.818182,
+            24.698795,
+            46.590909
+          ],
+          "sourcePage": 11,
+          "sourceRect": [
+            398.200012,
+            168.0,
+            459.700012,
+            229.5
+          ]
+        }
+      ]
+    },
+    "wrist-curl": {
+      "exerciseId": "wrist-curl",
+      "primaryTitle": "Wrist Curl",
+      "sourcePage": 11,
+      "imageIndex": 34,
+      "path": "figures/p11-34.png",
+      "width": 1038,
+      "height": 550,
+      "sha256": "51389b61ac7488118a72e0568c0f3f8a037d88292ec3e08837b913c81ffc8aa5",
+      "videoLinks": [
+        {
+          "url": "https://youtu.be/3VLTzIrnb5g?si=Srgy5OHlJX3llLhB",
+          "rectPercent": [
+            4.497997,
+            31.818182,
+            24.698795,
+            46.590909
+          ],
+          "sourcePage": 11,
+          "sourceRect": [
+            314.200012,
+            595.5,
+            375.700012,
+            657.0
+          ]
+        }
+      ]
+    },
+    "incline-curl": {
+      "exerciseId": "incline-curl",
+      "primaryTitle": "Seated Incline Curl",
+      "sourcePage": 11,
+      "imageIndex": 35,
+      "path": "figures/p11-35.png",
+      "width": 1038,
+      "height": 549,
+      "sha256": "e3cb63ac30d13f3ac08ce440a109b064a2a5a36f914abb703fc621eede0abe47",
+      "videoLinks": [
+        {
+          "url": "https://youtube.com/shorts/8Aof_F7fx60?si=9Mc-sNLpu0Qs4riz",
+          "rectPercent": [
+            4.297189,
+            31.841047,
+            24.698794,
+            46.590886
+          ],
+          "sourcePage": 11,
+          "sourceRect": [
+            54.200001,
+            453.030182,
+            115.699997,
+            514.530151
+          ]
+        },
+        {
+          "url": "https://youtube.com/shorts/4yTQjZvp3Nk?si=hbK0xxq3_jQBC4q9",
+          "rectPercent": [
+            38.032127,
+            31.841047,
+            24.698795,
+            46.590886
+          ],
+          "sourcePage": 11,
+          "sourceRect": [
+            138.199997,
+            453.030182,
+            199.699997,
+            514.530151
+          ]
+        }
+      ]
+    },
+    "seated-row": {
+      "exerciseId": "seated-row",
+      "primaryTitle": "Seated Row",
+      "sourcePage": 15,
+      "imageIndex": 38,
+      "path": "figures/p15-38.png",
+      "width": 1038,
+      "height": 550,
+      "sha256": "07c240be224f9d64e0d3baab277b903ac2db9692006bd8deded556ca8b637f5b",
+      "videoLinks": [
+        {
+          "url": "https://youtube.com/shorts/qD1WZ5pSuvk?si=yUcZKUhYJ3IIyzP1",
+          "rectPercent": [
+            4.506025,
+            31.916647,
+            24.698795,
+            46.590932
+          ],
+          "sourcePage": 15,
+          "sourceRect": [
+            314.220001,
+            453.129974,
+            375.720001,
+            514.630005
+          ]
+        },
+        {
+          "url": "https://youtube.com/shorts/hJQwrKrxOOo?si=8Qx4qDyEV5_1R2sX",
+          "rectPercent": [
+            38.26506,
+            31.916647,
+            24.698795,
+            46.590932
+          ],
+          "sourcePage": 15,
+          "sourceRect": [
+            398.279999,
+            453.129974,
+            459.779999,
+            514.630005
+          ]
+        }
+      ]
+    },
+    "machine-curl": {
+      "exerciseId": "machine-curl",
+      "primaryTitle": "Machine Curl",
+      "sourcePage": 11,
+      "imageIndex": 37,
+      "path": "figures/p11-37.png",
+      "width": 1038,
+      "height": 550,
+      "sha256": "050140f562b36eb8c309c0ac886bbdb48d8689c8f60c2d72451071f470a55f7f",
+      "videoLinks": [
+        {
+          "url": "https://youtube.com/shorts/S4dDLfp3e8w?si=6-PhISxaPgUXA_-B",
+          "rectPercent": [
+            4.497997,
+            31.841047,
+            24.698795,
+            46.590886
+          ],
+          "sourcePage": 11,
+          "sourceRect": [
+            314.200012,
+            453.030182,
+            375.700012,
+            514.530151
+          ]
+        },
+        {
+          "url": "https://youtube.com/shorts/7ixqAPO6JvU?si=KWms5O04HVXBF3Lq",
+          "rectPercent": [
+            38.232937,
+            31.841047,
+            24.698795,
+            46.590886
+          ],
+          "sourcePage": 11,
+          "sourceRect": [
+            398.200012,
+            453.030182,
+            459.700012,
+            514.530151
+          ]
+        }
+      ]
+    },
+    "reverse-fly": {
+      "exerciseId": "reverse-fly",
+      "primaryTitle": "Reverse Fly",
+      "sourcePage": 11,
+      "imageIndex": 38,
+      "path": "figures/p11-38.png",
+      "width": 1038,
+      "height": 550,
+      "sha256": "afcfc8459a064657fdc170343944fe863acf141ab7b8afdb8eb8cf5b0c2e7d38",
+      "videoLinks": [
+        {
+          "url": "https://youtube.com/shorts/7tgx6QHB0-A?si=_V_1CylN-j-LXMn6",
+          "rectPercent": [
+            4.297189,
+            31.462305,
+            24.698794,
+            46.590886
+          ],
+          "sourcePage": 11,
+          "sourceRect": [
+            54.200001,
+            310.030212,
+            115.699997,
+            371.530182
+          ]
+        },
+        {
+          "url": "https://youtube.com/shorts/bkejPHrPkmA?si=2GQ94irPXlehOHNH",
+          "rectPercent": [
+            38.032127,
+            31.462305,
+            24.698795,
+            46.590886
+          ],
+          "sourcePage": 11,
+          "sourceRect": [
+            138.199997,
+            310.030212,
+            199.699997,
+            371.530182
+          ]
+        }
+      ]
+    },
+    "wrist-extension": {
+      "exerciseId": "wrist-extension",
+      "primaryTitle": "Wrist Extension",
+      "sourcePage": 11,
+      "imageIndex": 39,
+      "path": "figures/p11-39.png",
+      "width": 1038,
+      "height": 550,
+      "sha256": "a678875c6d9e0a81dc20229ae9f75fe3a534f795a36a313381ea480935b137bf",
+      "videoLinks": [
+        {
+          "url": "https://youtube.com/shorts/xENVg7RX_O8?si=EKgMelxk0txjkGgN",
+          "rectPercent": [
+            4.497992,
+            31.462236,
+            24.698794,
+            46.590909
+          ],
+          "sourcePage": 11,
+          "sourceRect": [
+            54.700001,
+            595.030151,
+            116.199997,
+            656.530151
+          ]
+        }
+      ]
+    },
+    "hip-adductor": {
+      "exerciseId": "hip-adductor",
+      "primaryTitle": "Hip Adductor",
+      "sourcePage": 12,
+      "imageIndex": 4,
+      "path": "figures/p12-04.png",
+      "width": 1038,
+      "height": 549,
+      "sha256": "cfa0db784ccb8f5c5bd131dd601d32cc8cafa0e4538a4d489ed342c1cf2188f7",
+      "videoLinks": [
+        {
+          "url": "https://youtube.com/shorts/iPLvw74e7Tk?si=nXmboVBdoQr07lSS",
+          "rectPercent": [
+            4.297194,
+            31.841047,
+            24.698795,
+            46.590886
+          ],
+          "sourcePage": 12,
+          "sourceRect": [
+            313.700012,
+            453.030182,
+            375.200012,
+            514.530151
+          ]
+        }
+      ]
+    },
+    "leg-press": {
+      "exerciseId": "leg-press",
+      "primaryTitle": "Leg Press",
+      "sourcePage": 12,
+      "imageIndex": 5,
+      "path": "figures/p12-05.png",
+      "width": 1038,
+      "height": 550,
+      "sha256": "19672f934c1eb1ddc19f958acb2b0ece4f0a3a17a878cd91708c054d0f773fca",
+      "videoLinks": [
+        {
+          "url": "https://youtube.com/shorts/ahaJTts1f3s?si=N7sIz5gAQATAxBy1",
+          "rectPercent": [
+            4.497997,
+            31.84107,
+            24.698795,
+            46.590909
+          ],
+          "sourcePage": 12,
+          "sourceRect": [
+            314.200012,
+            168.030212,
+            375.700012,
+            229.530212
+          ]
+        },
+        {
+          "url": "https://youtube.com/shorts/-ol9-bZ_SJc?si=v48CfmDfvC2llTi9",
+          "rectPercent": [
+            38.232937,
+            31.833302,
+            24.698795,
+            46.590909
+          ],
+          "sourcePage": 12,
+          "sourceRect": [
+            398.200012,
+            168.019958,
+            459.700012,
+            229.519958
+          ]
+        }
+      ]
+    },
+    "cable-crunch": {
+      "exerciseId": "cable-crunch",
+      "primaryTitle": "Cable Crunch",
+      "sourcePage": 12,
+      "imageIndex": 6,
+      "path": "figures/p12-06.png",
+      "width": 1038,
+      "height": 550,
+      "sha256": "5f1f3c8a1ccfd0d33dacfc1868c86c04d2b8ce070a23cd95407a5141363e78b3",
+      "videoLinks": [
+        {
+          "url": "https://youtube.com/shorts/ByZJuk85YuE?si=OPBBD7gBfB1U0keq",
+          "rectPercent": [
+            4.497997,
+            31.462236,
+            24.698795,
+            46.590909
+          ],
+          "sourcePage": 12,
+          "sourceRect": [
+            314.200012,
+            595.030151,
+            375.700012,
+            656.530151
+          ]
+        },
+        {
+          "url": "https://youtube.com/shorts/jpXMUpU5Q7A?si=Rt7TWb43mlENVLpC",
+          "rectPercent": [
+            38.232937,
+            31.45456,
+            24.698795,
+            46.590909
+          ],
+          "sourcePage": 12,
+          "sourceRect": [
+            398.200012,
+            595.02002,
+            459.700012,
+            656.52002
+          ]
+        }
+      ]
+    },
+    "seated-leg-curl": {
+      "exerciseId": "seated-leg-curl",
+      "primaryTitle": "Seated Leg Curl",
+      "sourcePage": 12,
+      "imageIndex": 7,
+      "path": "figures/p12-07.png",
+      "width": 1038,
+      "height": 550,
+      "sha256": "e52fda2f653782c5a7ef125f06ff1b9278cd3e8488d3046ae2389f2d28e2d36b",
+      "videoLinks": [
+        {
+          "url": "https://youtube.com/shorts/_lgE0gPvbik?si=qSMb1JVTX9kv3Edy",
+          "rectPercent": [
+            4.297194,
+            31.841093,
+            24.698795,
+            46.590886
+          ],
+          "sourcePage": 12,
+          "sourceRect": [
+            313.700012,
+            310.530212,
+            375.200012,
+            372.030182
+          ]
+        }
+      ]
+    },
+    "leg-extension": {
+      "exerciseId": "leg-extension",
+      "primaryTitle": "Leg Extension",
+      "sourcePage": 12,
+      "imageIndex": 8,
+      "path": "figures/p12-08.png",
+      "width": 1038,
+      "height": 550,
+      "sha256": "17428588bf8b5f5030d1373d6297911d947ac22571dbd3b61cf934e584921a18",
+      "videoLinks": [
+        {
+          "url": "https://youtu.be/MpEydcQ1oDw?si=qYCD55tG1uBWgPe1",
+          "rectPercent": [
+            4.497992,
+            31.462282,
+            24.698794,
+            46.590909
+          ],
+          "sourcePage": 12,
+          "sourceRect": [
+            54.700001,
+            167.530212,
+            116.199997,
+            229.030212
+          ]
+        }
+      ]
+    },
+    "calf-raise": {
+      "exerciseId": "calf-raise",
+      "primaryTitle": "Calf Raise",
+      "sourcePage": 12,
+      "imageIndex": 9,
+      "path": "figures/p12-09.png",
+      "width": 1038,
+      "height": 549,
+      "sha256": "3f2738a050e5427041c374228f3030637d6e02c61c92aa9be3c7db13b14e8cf1",
+      "videoLinks": [
+        {
+          "url": "https://youtube.com/shorts/xwszHjl2D40?si=dsjRUo-s0eYb5PII",
+          "rectPercent": [
+            4.497992,
+            31.841047,
+            24.698794,
+            46.590886
+          ],
+          "sourcePage": 12,
+          "sourceRect": [
+            54.700001,
+            453.030182,
+            116.199997,
+            514.530151
+          ]
+        },
+        {
+          "url": "https://youtube.com/shorts/S2yhz3klwdU?si=xJHi4VTiiCeKY9ro",
+          "rectPercent": [
+            38.232931,
+            31.841047,
+            24.698795,
+            46.590886
+          ],
+          "sourcePage": 12,
+          "sourceRect": [
+            138.699997,
+            453.030182,
+            200.199997,
+            514.530151
+          ]
+        }
+      ]
+    },
+    "plank": {
+      "exerciseId": "plank",
+      "primaryTitle": "Plank",
+      "sourcePage": 12,
+      "imageIndex": 10,
+      "path": "figures/p12-10.png",
+      "width": 1038,
+      "height": 550,
+      "sha256": "e04c123c732af5cc30d1d95504b4423392c665985bdda0ef52993faf4e30ee00",
+      "videoLinks": [
+        {
+          "url": "https://youtube.com/shorts/5gU3pyrkv-E?si=HKndzFZnLauJy5-j",
+          "rectPercent": [
+            4.297189,
+            31.462236,
+            24.698794,
+            46.590909
+          ],
+          "sourcePage": 12,
+          "sourceRect": [
+            54.200001,
+            595.030151,
+            115.699997,
+            656.530151
+          ]
+        }
+      ]
+    },
+    "lying-leg-curl": {
+      "exerciseId": "lying-leg-curl",
+      "primaryTitle": "Lying Leg Curl",
+      "sourcePage": 12,
+      "imageIndex": 11,
+      "path": "figures/p12-11.png",
+      "width": 1038,
+      "height": 550,
+      "sha256": "e4120c03b9a237709932e8c9829859c02858b3a64e5abf973cd9c49c24cdc5e8",
+      "videoLinks": [
+        {
+          "url": "https://youtu.be/SbSNUXPRkc8?si=mKKsibAT3SHCLeQn",
+          "rectPercent": [
+            4.297189,
+            31.462305,
+            24.698794,
+            46.590886
+          ],
+          "sourcePage": 12,
+          "sourceRect": [
+            54.200001,
+            310.030212,
+            115.699997,
+            371.530182
+          ]
+        }
+      ]
+    },
+    "biceps-curl": {
+      "exerciseId": "biceps-curl",
+      "primaryTitle": "Biceps Curl",
+      "sourcePage": 15,
+      "imageIndex": 39,
+      "path": "figures/p15-39.png",
+      "width": 1038,
+      "height": 549,
+      "sha256": "314a8896529d9709b067c160b0fe7d621a0cf759058d1c2e22a0febff1db81d1",
+      "videoLinks": [
+        {
+          "url": "https://youtube.com/shorts/MKWBV29S6c0?si=inDIQL6ol85c2WUy",
+          "rectPercent": [
+            4.497997,
+            31.841024,
+            24.698795,
+            46.590909
+          ],
+          "sourcePage": 15,
+          "sourceRect": [
+            314.200012,
+            595.530151,
+            375.700012,
+            657.030151
+          ]
+        },
+        {
+          "url": "https://youtube.com/shorts/Pt4UD1Dxvr8?si=wx8bI5Eby088BMZQ",
+          "rectPercent": [
+            38.232937,
+            31.841024,
+            24.698795,
+            46.590909
+          ],
+          "sourcePage": 15,
+          "sourceRect": [
+            398.200012,
+            595.530151,
+            459.700012,
+            657.030151
+          ]
+        }
+      ]
+    },
+    "shrug": {
+      "exerciseId": "shrug",
+      "primaryTitle": "Shrug",
+      "sourcePage": 15,
+      "imageIndex": 40,
+      "path": "figures/p15-40.png",
+      "width": 1038,
+      "height": 550,
+      "sha256": "2cf0719f58b8d6eb36f864f974de3d355e6bfc9e1cac43d13ed6baba83d031b0",
+      "videoLinks": [
+        {
+          "url": "https://youtube.com/shorts/1OY7v02l2vA",
+          "rectPercent": [
+            21.365461,
+            31.757563,
+            24.779115,
+            46.742433
+          ],
+          "sourcePage": 15,
+          "sourceRect": [
+            96.699997,
+            452.919983,
+            158.399994,
+            514.619995
+          ]
+        }
+      ]
+    },
+    "hip-thrust": {
+      "exerciseId": "hip-thrust",
+      "primaryTitle": "Hip Thrust",
+      "sourcePage": 17,
+      "imageIndex": 16,
+      "path": "figures/p17-16.png",
+      "width": 1038,
+      "height": 549,
+      "sha256": "c98ca0f5ec081c5cd5cb3b2b36d0a380ef02459b54b31b8abcf68e643abdf47d",
+      "videoLinks": [
+        {
+          "url": "https://youtu.be/5S8SApGU_Lk?si=sSXx0WadUZFLyziR",
+          "rectPercent": [
+            4.297189,
+            31.818205,
+            24.698794,
+            46.590909
+          ],
+          "sourcePage": 17,
+          "sourceRect": [
+            54.200001,
+            310.5,
+            115.699997,
+            372.0
+          ]
+        }
+      ]
+    },
+    "romanian-deadlift": {
+      "exerciseId": "romanian-deadlift",
+      "primaryTitle": "Romanian Deadlift",
+      "sourcePage": 17,
+      "imageIndex": 21,
+      "path": "figures/p17-21.png",
+      "width": 1038,
+      "height": 549,
+      "sha256": "65bd3480deba9bf8ae7b9864eb49a5a8289ee5b2788fcb306c535c0226735cf6",
+      "videoLinks": [
+        {
+          "url": "https://youtube.com/shorts/g5u75sgpn04?si=Et8OE0RdMWEl7nte",
+          "rectPercent": [
+            4.297194,
+            31.818205,
+            24.698795,
+            46.590909
+          ],
+          "sourcePage": 17,
+          "sourceRect": [
+            313.700012,
+            310.5,
+            375.200012,
+            372.0
+          ]
+        }
+      ]
+    }
+  },
+  "pages": {
+    "9": {
+      "overhead-triceps": {
+        "exerciseId": "overhead-triceps",
+        "primaryTitle": "Overhead Cable Triceps Extension",
+        "sourcePage": 9,
+        "imageIndex": 2,
+        "path": "figures/p09-02.png",
+        "width": 1038,
+        "height": 549,
+        "sha256": "1efe9716f4d9c7ed77e59296e3b885148e45ab2c1cdd9881ac25d4cf7b8ff497",
+        "videoLinks": [
+          {
+            "url": "https://youtu.be/kqidUIf1eJE?si=NX7Tommrn2J6lZZg",
+            "rectPercent": [
+              4.497992,
+              31.818182,
+              24.698794,
+              46.590909
+            ],
+            "sourcePage": 9,
+            "sourceRect": [
+              54.700001,
+              453.0,
+              116.199997,
+              514.5
+            ]
+          },
+          {
+            "url": "https://youtube.com/shorts/b_r_LW4HEcM?si=3d8McpNsfsaO5ydp",
+            "rectPercent": [
+              38.232931,
+              31.818182,
+              24.698795,
+              46.590909
+            ],
+            "sourcePage": 9,
+            "sourceRect": [
+              138.699997,
+              453.0,
+              200.199997,
+              514.5
+            ]
+          }
+        ]
+      },
+      "shoulder-press": {
+        "exerciseId": "shoulder-press",
+        "primaryTitle": "Shoulder Press",
+        "sourcePage": 9,
+        "imageIndex": 6,
+        "path": "figures/p09-06.png",
+        "width": 1038,
+        "height": 550,
+        "sha256": "8a2530561b02327bda31ff9d709ce1e9b6b6856ee3942cce3ba989679e0528a6",
+        "videoLinks": [
+          {
+            "url": "https://youtube.com/shorts/k6zaPZbB8yI?si=1LeK4NlSJR_t_GMh",
+            "rectPercent": [
+              4.538152,
+              31.90911,
+              24.698797,
+              46.590909
+            ],
+            "sourcePage": 9,
+            "sourceRect": [
+              54.799999,
+              310.619995,
+              116.300003,
+              372.119995
+            ]
+          },
+          {
+            "url": "https://youtube.com/shorts/t2SmvH1iGjg?si=NTXpp7Ux4Bb7V9jl",
+            "rectPercent": [
+              38.273094,
+              31.90911,
+              24.698795,
+              46.590909
+            ],
+            "sourcePage": 9,
+            "sourceRect": [
+              138.800003,
+              310.619995,
+              200.300003,
+              372.119995
+            ]
+          }
+        ]
+      },
+      "butterfly": {
+        "exerciseId": "butterfly",
+        "primaryTitle": "Butterfly Machine",
+        "sourcePage": 9,
+        "imageIndex": 10,
+        "path": "figures/p09-10.png",
+        "width": 1038,
+        "height": 550,
+        "sha256": "dfb55009f983a855fcbb3d4b9e4091374e43cf081c2d7cb8de8e4270e217cc3d",
+        "videoLinks": [
+          {
+            "url": "https://youtu.be/eGjt4lk6g34?si=3sWWisUtmwkX2Bfw",
+            "rectPercent": [
+              4.497997,
+              31.818205,
+              24.698795,
+              46.590909
+            ],
+            "sourcePage": 9,
+            "sourceRect": [
+              314.200012,
+              310.5,
+              375.700012,
+              372.0
+            ]
+          },
+          {
+            "url": "https://youtube.com/shorts/y4RJDSOBEl8?si=hXAcjqsxZ2ULlsLu",
+            "rectPercent": [
+              38.232937,
+              31.818205,
+              24.698795,
+              46.590909
+            ],
+            "sourcePage": 9,
+            "sourceRect": [
+              398.200012,
+              310.5,
+              459.700012,
+              372.0
+            ]
+          }
+        ]
+      },
+      "triceps-pushdown": {
+        "exerciseId": "triceps-pushdown",
+        "primaryTitle": "Triceps Pushdown",
+        "sourcePage": 9,
+        "imageIndex": 11,
+        "path": "figures/p09-11.png",
+        "width": 1038,
+        "height": 549,
+        "sha256": "d7c337406e4aacb097385e6040e4acaf87fd35d67497e7b02671a7bdfd2ea8ea",
+        "videoLinks": [
+          {
+            "url": "https://youtube.com/shorts/u36jNfqh8_U?si=QoYfsy_JUdKulO7p",
+            "rectPercent": [
+              4.497997,
+              31.818182,
+              24.698795,
+              46.590909
+            ],
+            "sourcePage": 9,
+            "sourceRect": [
+              314.200012,
+              595.5,
+              375.700012,
+              657.0
+            ]
+          }
+        ]
+      },
+      "incline-press": {
+        "exerciseId": "incline-press",
+        "primaryTitle": "Incline Press",
+        "sourcePage": 9,
+        "imageIndex": 12,
+        "path": "figures/p09-12.png",
+        "width": 1038,
+        "height": 550,
+        "sha256": "c56bfd6def7a684d54bdc1833221c3bf3eef6e6bb91e3d5ed13dbd18a25c5992",
+        "videoLinks": [
+          {
+            "url": "https://youtube.com/shorts/T0huVIujERo?si=ckmp2aghIyx-U2Kd",
+            "rectPercent": [
+              4.497992,
+              31.818182,
+              24.698794,
+              46.590909
+            ],
+            "sourcePage": 9,
+            "sourceRect": [
+              54.700001,
+              168.0,
+              116.199997,
+              229.5
+            ]
+          },
+          {
+            "url": "https://youtube.com/shorts/Gruq177Psnk?si=5ToAEDAafBu_H1-Y",
+            "rectPercent": [
+              38.232931,
+              31.818182,
+              24.698795,
+              46.590909
+            ],
+            "sourcePage": 9,
+            "sourceRect": [
+              138.699997,
+              168.0,
+              200.199997,
+              229.5
+            ]
+          }
+        ]
+      },
+      "chest-press": {
+        "exerciseId": "chest-press",
+        "primaryTitle": "Chest Press",
+        "sourcePage": 9,
+        "imageIndex": 14,
+        "path": "figures/p09-14.png",
+        "width": 1038,
+        "height": 550,
+        "sha256": "b224ef569b3544916b49463a143841ac3c54aaf560a823c8bacef7e32c091ee6",
+        "videoLinks": [
+          {
+            "url": "https://youtu.be/vnd-GBtTMLI?si=kAHBU6uO7X2tSMGh",
+            "rectPercent": [
+              4.497997,
+              31.818182,
+              24.698795,
+              46.590909
+            ],
+            "sourcePage": 9,
+            "sourceRect": [
+              314.200012,
+              168.0,
+              375.700012,
+              229.5
+            ]
+          },
+          {
+            "url": "https://youtube.com/shorts/_FkbD0FhgVE?si=BF-m3VaiBNEK57wU",
+            "rectPercent": [
+              38.232937,
+              31.84107,
+              24.698795,
+              46.590909
+            ],
+            "sourcePage": 9,
+            "sourceRect": [
+              398.200012,
+              168.030212,
+              459.700012,
+              229.530212
+            ]
+          }
+        ]
+      },
+      "lateral-raise": {
+        "exerciseId": "lateral-raise",
+        "primaryTitle": "Lateral Raise",
+        "sourcePage": 9,
+        "imageIndex": 16,
+        "path": "figures/p09-16.png",
+        "width": 1038,
+        "height": 549,
+        "sha256": "0ccd21f3ba0264a314ea71046c38228c485d5559231495a84e032cff15a44f74",
+        "videoLinks": [
+          {
+            "url": "https://youtube.com/shorts/iK22GwXJji0?si=PpIOReyHSWJ5Fssl",
+            "rectPercent": [
+              4.297194,
+              31.462259,
+              24.698795,
+              46.590886
+            ],
+            "sourcePage": 9,
+            "sourceRect": [
+              313.700012,
+              452.530182,
+              375.200012,
+              514.030151
+            ]
+          },
+          {
+            "url": "https://youtube.com/shorts/23VoAvqwSzo?si=NEZPRSMiJ0cxn7Hi",
+            "rectPercent": [
+              38.032133,
+              31.462259,
+              24.698795,
+              46.590886
+            ],
+            "sourcePage": 9,
+            "sourceRect": [
+              397.700012,
+              452.530182,
+              459.200012,
+              514.030151
+            ]
+          }
+        ]
+      }
+    },
+    "11": {
+      "tbar-row": {
+        "exerciseId": "tbar-row",
+        "primaryTitle": "T-Bar Row",
+        "sourcePage": 11,
+        "imageIndex": 32,
+        "path": "figures/p11-32.png",
+        "width": 1038,
+        "height": 550,
+        "sha256": "ad652fcf619113ba14e1d7c331211d2c4f5faeac1f010d5f33329d37c3028f2a",
+        "videoLinks": [
+          {
+            "url": "https://youtube.com/shorts/0pGiyBXvA2c?si=T2ZncEeSCuLBHXrd",
+            "rectPercent": [
+              4.297194,
+              31.841093,
+              24.698795,
+              46.590886
+            ],
+            "sourcePage": 11,
+            "sourceRect": [
+              313.700012,
+              310.530212,
+              375.200012,
+              372.030182
+            ]
+          },
+          {
+            "url": "https://youtube.com/shorts/phVtqawIgbk?si=oO5fPS2i8F89FRBM",
+            "rectPercent": [
+              38.032133,
+              31.841093,
+              24.698795,
+              46.590886
+            ],
+            "sourcePage": 11,
+            "sourceRect": [
+              397.700012,
+              310.530212,
+              459.200012,
+              372.030182
+            ]
+          }
+        ]
+      },
+      "lat-pulldown": {
+        "exerciseId": "lat-pulldown",
+        "primaryTitle": "Lat Pulldown",
+        "sourcePage": 11,
+        "imageIndex": 33,
+        "path": "figures/p11-33.png",
+        "width": 1038,
+        "height": 550,
+        "sha256": "1cfd1d29eccac34244f642bc049a43dfeea706225a933aa682db0e102f44f0d6",
+        "videoLinks": [
+          {
+            "url": "https://youtube.com/shorts/51ql2-2kLfA?si=rUy2h16sM7990Tbf",
+            "rectPercent": [
+              4.497997,
+              31.818182,
+              24.698795,
+              46.590909
+            ],
+            "sourcePage": 11,
+            "sourceRect": [
+              314.200012,
+              168.0,
+              375.700012,
+              229.5
+            ]
+          },
+          {
+            "url": "https://youtube.com/shorts/ym1V5H35IpA?si=lIokNLUZcRhDRV3J",
+            "rectPercent": [
+              38.232937,
+              31.818182,
+              24.698795,
+              46.590909
+            ],
+            "sourcePage": 11,
+            "sourceRect": [
+              398.200012,
+              168.0,
+              459.700012,
+              229.5
+            ]
+          }
+        ]
+      },
+      "wrist-curl": {
+        "exerciseId": "wrist-curl",
+        "primaryTitle": "Wrist Curl",
+        "sourcePage": 11,
+        "imageIndex": 34,
+        "path": "figures/p11-34.png",
+        "width": 1038,
+        "height": 550,
+        "sha256": "51389b61ac7488118a72e0568c0f3f8a037d88292ec3e08837b913c81ffc8aa5",
+        "videoLinks": [
+          {
+            "url": "https://youtu.be/3VLTzIrnb5g?si=Srgy5OHlJX3llLhB",
+            "rectPercent": [
+              4.497997,
+              31.818182,
+              24.698795,
+              46.590909
+            ],
+            "sourcePage": 11,
+            "sourceRect": [
+              314.200012,
+              595.5,
+              375.700012,
+              657.0
+            ]
+          }
+        ]
+      },
+      "incline-curl": {
+        "exerciseId": "incline-curl",
+        "primaryTitle": "Seated Incline Curl",
+        "sourcePage": 11,
+        "imageIndex": 35,
+        "path": "figures/p11-35.png",
+        "width": 1038,
+        "height": 549,
+        "sha256": "e3cb63ac30d13f3ac08ce440a109b064a2a5a36f914abb703fc621eede0abe47",
+        "videoLinks": [
+          {
+            "url": "https://youtube.com/shorts/8Aof_F7fx60?si=9Mc-sNLpu0Qs4riz",
+            "rectPercent": [
+              4.297189,
+              31.841047,
+              24.698794,
+              46.590886
+            ],
+            "sourcePage": 11,
+            "sourceRect": [
+              54.200001,
+              453.030182,
+              115.699997,
+              514.530151
+            ]
+          },
+          {
+            "url": "https://youtube.com/shorts/4yTQjZvp3Nk?si=hbK0xxq3_jQBC4q9",
+            "rectPercent": [
+              38.032127,
+              31.841047,
+              24.698795,
+              46.590886
+            ],
+            "sourcePage": 11,
+            "sourceRect": [
+              138.199997,
+              453.030182,
+              199.699997,
+              514.530151
+            ]
+          }
+        ]
+      },
+      "seated-row": {
+        "exerciseId": "seated-row",
+        "primaryTitle": "Seated Row",
+        "sourcePage": 11,
+        "imageIndex": 36,
+        "path": "figures/p11-36.png",
+        "width": 1038,
+        "height": 550,
+        "sha256": "cdbb6aaa37242c40422bd1ddf1e88f0f29a674cb04c45d4c8d47c0e931e52563",
+        "videoLinks": [
+          {
+            "url": "https://youtube.com/shorts/qD1WZ5pSuvk?si=yUcZKUhYJ3IIyzP1",
+            "rectPercent": [
+              4.497992,
+              31.462282,
+              24.698794,
+              46.590909
+            ],
+            "sourcePage": 11,
+            "sourceRect": [
+              54.700001,
+              167.530212,
+              116.199997,
+              229.030212
+            ]
+          },
+          {
+            "url": "https://youtube.com/shorts/hJQwrKrxOOo?si=8Qx4qDyEV5_1R2sX",
+            "rectPercent": [
+              38.232931,
+              31.462282,
+              24.698795,
+              46.590909
+            ],
+            "sourcePage": 11,
+            "sourceRect": [
+              138.699997,
+              167.530212,
+              200.199997,
+              229.030212
+            ]
+          }
+        ]
+      },
+      "machine-curl": {
+        "exerciseId": "machine-curl",
+        "primaryTitle": "Machine Curl",
+        "sourcePage": 11,
+        "imageIndex": 37,
+        "path": "figures/p11-37.png",
+        "width": 1038,
+        "height": 550,
+        "sha256": "050140f562b36eb8c309c0ac886bbdb48d8689c8f60c2d72451071f470a55f7f",
+        "videoLinks": [
+          {
+            "url": "https://youtube.com/shorts/S4dDLfp3e8w?si=6-PhISxaPgUXA_-B",
+            "rectPercent": [
+              4.497997,
+              31.841047,
+              24.698795,
+              46.590886
+            ],
+            "sourcePage": 11,
+            "sourceRect": [
+              314.200012,
+              453.030182,
+              375.700012,
+              514.530151
+            ]
+          },
+          {
+            "url": "https://youtube.com/shorts/7ixqAPO6JvU?si=KWms5O04HVXBF3Lq",
+            "rectPercent": [
+              38.232937,
+              31.841047,
+              24.698795,
+              46.590886
+            ],
+            "sourcePage": 11,
+            "sourceRect": [
+              398.200012,
+              453.030182,
+              459.700012,
+              514.530151
+            ]
+          }
+        ]
+      },
+      "reverse-fly": {
+        "exerciseId": "reverse-fly",
+        "primaryTitle": "Reverse Fly",
+        "sourcePage": 11,
+        "imageIndex": 38,
+        "path": "figures/p11-38.png",
+        "width": 1038,
+        "height": 550,
+        "sha256": "afcfc8459a064657fdc170343944fe863acf141ab7b8afdb8eb8cf5b0c2e7d38",
+        "videoLinks": [
+          {
+            "url": "https://youtube.com/shorts/7tgx6QHB0-A?si=_V_1CylN-j-LXMn6",
+            "rectPercent": [
+              4.297189,
+              31.462305,
+              24.698794,
+              46.590886
+            ],
+            "sourcePage": 11,
+            "sourceRect": [
+              54.200001,
+              310.030212,
+              115.699997,
+              371.530182
+            ]
+          },
+          {
+            "url": "https://youtube.com/shorts/bkejPHrPkmA?si=2GQ94irPXlehOHNH",
+            "rectPercent": [
+              38.032127,
+              31.462305,
+              24.698795,
+              46.590886
+            ],
+            "sourcePage": 11,
+            "sourceRect": [
+              138.199997,
+              310.030212,
+              199.699997,
+              371.530182
+            ]
+          }
+        ]
+      },
+      "wrist-extension": {
+        "exerciseId": "wrist-extension",
+        "primaryTitle": "Wrist Extension",
+        "sourcePage": 11,
+        "imageIndex": 39,
+        "path": "figures/p11-39.png",
+        "width": 1038,
+        "height": 550,
+        "sha256": "a678875c6d9e0a81dc20229ae9f75fe3a534f795a36a313381ea480935b137bf",
+        "videoLinks": [
+          {
+            "url": "https://youtube.com/shorts/xENVg7RX_O8?si=EKgMelxk0txjkGgN",
+            "rectPercent": [
+              4.497992,
+              31.462236,
+              24.698794,
+              46.590909
+            ],
+            "sourcePage": 11,
+            "sourceRect": [
+              54.700001,
+              595.030151,
+              116.199997,
+              656.530151
+            ]
+          }
+        ]
+      }
+    },
+    "12": {
+      "hip-adductor": {
+        "exerciseId": "hip-adductor",
+        "primaryTitle": "Hip Adductor",
+        "sourcePage": 12,
+        "imageIndex": 4,
+        "path": "figures/p12-04.png",
+        "width": 1038,
+        "height": 549,
+        "sha256": "cfa0db784ccb8f5c5bd131dd601d32cc8cafa0e4538a4d489ed342c1cf2188f7",
+        "videoLinks": [
+          {
+            "url": "https://youtube.com/shorts/iPLvw74e7Tk?si=nXmboVBdoQr07lSS",
+            "rectPercent": [
+              4.297194,
+              31.841047,
+              24.698795,
+              46.590886
+            ],
+            "sourcePage": 12,
+            "sourceRect": [
+              313.700012,
+              453.030182,
+              375.200012,
+              514.530151
+            ]
+          }
+        ]
+      },
+      "leg-press": {
+        "exerciseId": "leg-press",
+        "primaryTitle": "Leg Press",
+        "sourcePage": 12,
+        "imageIndex": 5,
+        "path": "figures/p12-05.png",
+        "width": 1038,
+        "height": 550,
+        "sha256": "19672f934c1eb1ddc19f958acb2b0ece4f0a3a17a878cd91708c054d0f773fca",
+        "videoLinks": [
+          {
+            "url": "https://youtube.com/shorts/ahaJTts1f3s?si=N7sIz5gAQATAxBy1",
+            "rectPercent": [
+              4.497997,
+              31.84107,
+              24.698795,
+              46.590909
+            ],
+            "sourcePage": 12,
+            "sourceRect": [
+              314.200012,
+              168.030212,
+              375.700012,
+              229.530212
+            ]
+          },
+          {
+            "url": "https://youtube.com/shorts/-ol9-bZ_SJc?si=v48CfmDfvC2llTi9",
+            "rectPercent": [
+              38.232937,
+              31.833302,
+              24.698795,
+              46.590909
+            ],
+            "sourcePage": 12,
+            "sourceRect": [
+              398.200012,
+              168.019958,
+              459.700012,
+              229.519958
+            ]
+          }
+        ]
+      },
+      "cable-crunch": {
+        "exerciseId": "cable-crunch",
+        "primaryTitle": "Cable Crunch",
+        "sourcePage": 12,
+        "imageIndex": 6,
+        "path": "figures/p12-06.png",
+        "width": 1038,
+        "height": 550,
+        "sha256": "5f1f3c8a1ccfd0d33dacfc1868c86c04d2b8ce070a23cd95407a5141363e78b3",
+        "videoLinks": [
+          {
+            "url": "https://youtube.com/shorts/ByZJuk85YuE?si=OPBBD7gBfB1U0keq",
+            "rectPercent": [
+              4.497997,
+              31.462236,
+              24.698795,
+              46.590909
+            ],
+            "sourcePage": 12,
+            "sourceRect": [
+              314.200012,
+              595.030151,
+              375.700012,
+              656.530151
+            ]
+          },
+          {
+            "url": "https://youtube.com/shorts/jpXMUpU5Q7A?si=Rt7TWb43mlENVLpC",
+            "rectPercent": [
+              38.232937,
+              31.45456,
+              24.698795,
+              46.590909
+            ],
+            "sourcePage": 12,
+            "sourceRect": [
+              398.200012,
+              595.02002,
+              459.700012,
+              656.52002
+            ]
+          }
+        ]
+      },
+      "seated-leg-curl": {
+        "exerciseId": "seated-leg-curl",
+        "primaryTitle": "Seated Leg Curl",
+        "sourcePage": 12,
+        "imageIndex": 7,
+        "path": "figures/p12-07.png",
+        "width": 1038,
+        "height": 550,
+        "sha256": "e52fda2f653782c5a7ef125f06ff1b9278cd3e8488d3046ae2389f2d28e2d36b",
+        "videoLinks": [
+          {
+            "url": "https://youtube.com/shorts/_lgE0gPvbik?si=qSMb1JVTX9kv3Edy",
+            "rectPercent": [
+              4.297194,
+              31.841093,
+              24.698795,
+              46.590886
+            ],
+            "sourcePage": 12,
+            "sourceRect": [
+              313.700012,
+              310.530212,
+              375.200012,
+              372.030182
+            ]
+          }
+        ]
+      },
+      "leg-extension": {
+        "exerciseId": "leg-extension",
+        "primaryTitle": "Leg Extension",
+        "sourcePage": 12,
+        "imageIndex": 8,
+        "path": "figures/p12-08.png",
+        "width": 1038,
+        "height": 550,
+        "sha256": "17428588bf8b5f5030d1373d6297911d947ac22571dbd3b61cf934e584921a18",
+        "videoLinks": [
+          {
+            "url": "https://youtu.be/MpEydcQ1oDw?si=qYCD55tG1uBWgPe1",
+            "rectPercent": [
+              4.497992,
+              31.462282,
+              24.698794,
+              46.590909
+            ],
+            "sourcePage": 12,
+            "sourceRect": [
+              54.700001,
+              167.530212,
+              116.199997,
+              229.030212
+            ]
+          }
+        ]
+      },
+      "calf-raise": {
+        "exerciseId": "calf-raise",
+        "primaryTitle": "Calf Raise",
+        "sourcePage": 12,
+        "imageIndex": 9,
+        "path": "figures/p12-09.png",
+        "width": 1038,
+        "height": 549,
+        "sha256": "3f2738a050e5427041c374228f3030637d6e02c61c92aa9be3c7db13b14e8cf1",
+        "videoLinks": [
+          {
+            "url": "https://youtube.com/shorts/xwszHjl2D40?si=dsjRUo-s0eYb5PII",
+            "rectPercent": [
+              4.497992,
+              31.841047,
+              24.698794,
+              46.590886
+            ],
+            "sourcePage": 12,
+            "sourceRect": [
+              54.700001,
+              453.030182,
+              116.199997,
+              514.530151
+            ]
+          },
+          {
+            "url": "https://youtube.com/shorts/S2yhz3klwdU?si=xJHi4VTiiCeKY9ro",
+            "rectPercent": [
+              38.232931,
+              31.841047,
+              24.698795,
+              46.590886
+            ],
+            "sourcePage": 12,
+            "sourceRect": [
+              138.699997,
+              453.030182,
+              200.199997,
+              514.530151
+            ]
+          }
+        ]
+      },
+      "plank": {
+        "exerciseId": "plank",
+        "primaryTitle": "Plank",
+        "sourcePage": 12,
+        "imageIndex": 10,
+        "path": "figures/p12-10.png",
+        "width": 1038,
+        "height": 550,
+        "sha256": "e04c123c732af5cc30d1d95504b4423392c665985bdda0ef52993faf4e30ee00",
+        "videoLinks": [
+          {
+            "url": "https://youtube.com/shorts/5gU3pyrkv-E?si=HKndzFZnLauJy5-j",
+            "rectPercent": [
+              4.297189,
+              31.462236,
+              24.698794,
+              46.590909
+            ],
+            "sourcePage": 12,
+            "sourceRect": [
+              54.200001,
+              595.030151,
+              115.699997,
+              656.530151
+            ]
+          }
+        ]
+      },
+      "lying-leg-curl": {
+        "exerciseId": "lying-leg-curl",
+        "primaryTitle": "Lying Leg Curl",
+        "sourcePage": 12,
+        "imageIndex": 11,
+        "path": "figures/p12-11.png",
+        "width": 1038,
+        "height": 550,
+        "sha256": "e4120c03b9a237709932e8c9829859c02858b3a64e5abf973cd9c49c24cdc5e8",
+        "videoLinks": [
+          {
+            "url": "https://youtu.be/SbSNUXPRkc8?si=mKKsibAT3SHCLeQn",
+            "rectPercent": [
+              4.297189,
+              31.462305,
+              24.698794,
+              46.590886
+            ],
+            "sourcePage": 12,
+            "sourceRect": [
+              54.200001,
+              310.030212,
+              115.699997,
+              371.530182
+            ]
+          }
+        ]
+      }
+    },
+    "15": {
+      "chest-press": {
+        "exerciseId": "chest-press",
+        "primaryTitle": "Chest Press",
+        "sourcePage": 15,
+        "imageIndex": 36,
+        "path": "figures/p15-36.png",
+        "width": 1038,
+        "height": 550,
+        "sha256": "d7a5694e91bd784a240bf165da6f43e1c25b99d48cc1ff4e19870bb02874b8f4",
+        "videoLinks": [
+          {
+            "url": "https://youtu.be/vnd-GBtTMLI?si=kAHBU6uO7X2tSMGh",
+            "rectPercent": [
+              4.497997,
+              31.84107,
+              24.698795,
+              46.590909
+            ],
+            "sourcePage": 15,
+            "sourceRect": [
+              314.200012,
+              168.030212,
+              375.700012,
+              229.530212
+            ]
+          },
+          {
+            "url": "https://youtube.com/shorts/_FkbD0FhgVE?si=BF-m3VaiBNEK57wU",
+            "rectPercent": [
+              38.232937,
+              31.84107,
+              24.698795,
+              46.590909
+            ],
+            "sourcePage": 15,
+            "sourceRect": [
+              398.200012,
+              168.030212,
+              459.700012,
+              229.530212
+            ]
+          }
+        ]
+      },
+      "shoulder-press": {
+        "exerciseId": "shoulder-press",
+        "primaryTitle": "Shoulder Press",
+        "sourcePage": 15,
+        "imageIndex": 37,
+        "path": "figures/p15-37.png",
+        "width": 1038,
+        "height": 550,
+        "sha256": "3f3af606fec45fd673eaa4ea552ad099310d1734748ab32be0916b3dd0b4c657",
+        "videoLinks": [
+          {
+            "url": "https://youtube.com/shorts/k6zaPZbB8yI?si=1LeK4NlSJR_t_GMh",
+            "rectPercent": [
+              4.538148,
+              31.90911,
+              24.698795,
+              46.590909
+            ],
+            "sourcePage": 15,
+            "sourceRect": [
+              314.299988,
+              310.619995,
+              375.799988,
+              372.119995
+            ]
+          },
+          {
+            "url": "https://youtube.com/shorts/t2SmvH1iGjg?si=NTXpp7Ux4Bb7V9jl",
+            "rectPercent": [
+              38.273087,
+              31.90911,
+              24.698795,
+              46.590909
+            ],
+            "sourcePage": 15,
+            "sourceRect": [
+              398.299988,
+              310.619995,
+              459.799988,
+              372.119995
+            ]
+          }
+        ]
+      },
+      "seated-row": {
+        "exerciseId": "seated-row",
+        "primaryTitle": "Seated Row",
+        "sourcePage": 15,
+        "imageIndex": 38,
+        "path": "figures/p15-38.png",
+        "width": 1038,
+        "height": 550,
+        "sha256": "07c240be224f9d64e0d3baab277b903ac2db9692006bd8deded556ca8b637f5b",
+        "videoLinks": [
+          {
+            "url": "https://youtube.com/shorts/qD1WZ5pSuvk?si=yUcZKUhYJ3IIyzP1",
+            "rectPercent": [
+              4.506025,
+              31.916647,
+              24.698795,
+              46.590932
+            ],
+            "sourcePage": 15,
+            "sourceRect": [
+              314.220001,
+              453.129974,
+              375.720001,
+              514.630005
+            ]
+          },
+          {
+            "url": "https://youtube.com/shorts/hJQwrKrxOOo?si=8Qx4qDyEV5_1R2sX",
+            "rectPercent": [
+              38.26506,
+              31.916647,
+              24.698795,
+              46.590932
+            ],
+            "sourcePage": 15,
+            "sourceRect": [
+              398.279999,
+              453.129974,
+              459.779999,
+              514.630005
+            ]
+          }
+        ]
+      },
+      "biceps-curl": {
+        "exerciseId": "biceps-curl",
+        "primaryTitle": "Biceps Curl",
+        "sourcePage": 15,
+        "imageIndex": 39,
+        "path": "figures/p15-39.png",
+        "width": 1038,
+        "height": 549,
+        "sha256": "314a8896529d9709b067c160b0fe7d621a0cf759058d1c2e22a0febff1db81d1",
+        "videoLinks": [
+          {
+            "url": "https://youtube.com/shorts/MKWBV29S6c0?si=inDIQL6ol85c2WUy",
+            "rectPercent": [
+              4.497997,
+              31.841024,
+              24.698795,
+              46.590909
+            ],
+            "sourcePage": 15,
+            "sourceRect": [
+              314.200012,
+              595.530151,
+              375.700012,
+              657.030151
+            ]
+          },
+          {
+            "url": "https://youtube.com/shorts/Pt4UD1Dxvr8?si=wx8bI5Eby088BMZQ",
+            "rectPercent": [
+              38.232937,
+              31.841024,
+              24.698795,
+              46.590909
+            ],
+            "sourcePage": 15,
+            "sourceRect": [
+              398.200012,
+              595.530151,
+              459.700012,
+              657.030151
+            ]
+          }
+        ]
+      },
+      "shrug": {
+        "exerciseId": "shrug",
+        "primaryTitle": "Shrug",
+        "sourcePage": 15,
+        "imageIndex": 40,
+        "path": "figures/p15-40.png",
+        "width": 1038,
+        "height": 550,
+        "sha256": "2cf0719f58b8d6eb36f864f974de3d355e6bfc9e1cac43d13ed6baba83d031b0",
+        "videoLinks": [
+          {
+            "url": "https://youtube.com/shorts/1OY7v02l2vA",
+            "rectPercent": [
+              21.365461,
+              31.757563,
+              24.779115,
+              46.742433
+            ],
+            "sourcePage": 15,
+            "sourceRect": [
+              96.699997,
+              452.919983,
+              158.399994,
+              514.619995
+            ]
+          }
+        ]
+      },
+      "lat-pulldown": {
+        "exerciseId": "lat-pulldown",
+        "primaryTitle": "Lat Pulldown",
+        "sourcePage": 15,
+        "imageIndex": 41,
+        "path": "figures/p15-41.png",
+        "width": 1038,
+        "height": 550,
+        "sha256": "be12f388d4520da2628bc74fa4ed247d22e2dc091565db90391fbb03b0c8bff8",
+        "videoLinks": [
+          {
+            "url": "https://youtube.com/shorts/51ql2-2kLfA?si=rUy2h16sM7990Tbf",
+            "rectPercent": [
+              4.53012,
+              31.916693,
+              24.698795,
+              46.590886
+            ],
+            "sourcePage": 15,
+            "sourceRect": [
+              54.779999,
+              310.630005,
+              116.279999,
+              372.129974
+            ]
+          },
+          {
+            "url": "https://youtube.com/shorts/ym1V5H35IpA?si=lIokNLUZcRhDRV3J",
+            "rectPercent": [
+              38.289155,
+              31.916693,
+              24.698795,
+              46.590886
+            ],
+            "sourcePage": 15,
+            "sourceRect": [
+              138.839996,
+              310.630005,
+              200.339996,
+              372.129974
+            ]
+          }
+        ]
+      },
+      "butterfly": {
+        "exerciseId": "butterfly",
+        "primaryTitle": "Butterfly Machine",
+        "sourcePage": 15,
+        "imageIndex": 42,
+        "path": "figures/p15-42.png",
+        "width": 1038,
+        "height": 550,
+        "sha256": "09ab3f029118f19102d494f34f98ef31dc6d11a5d39f55f777a722228723b0e9",
+        "videoLinks": [
+          {
+            "url": "https://youtu.be/eGjt4lk6g34?si=3sWWisUtmwkX2Bfw",
+            "rectPercent": [
+              4.522088,
+              31.84107,
+              24.698797,
+              46.590909
+            ],
+            "sourcePage": 15,
+            "sourceRect": [
+              54.759998,
+              168.030212,
+              116.260002,
+              229.530212
+            ]
+          },
+          {
+            "url": "https://youtube.com/shorts/y4RJDSOBEl8?si=hXAcjqsxZ2ULlsLu",
+            "rectPercent": [
+              38.257026,
+              31.84107,
+              24.698795,
+              46.590909
+            ],
+            "sourcePage": 15,
+            "sourceRect": [
+              138.759995,
+              168.030212,
+              200.259995,
+              229.530212
+            ]
+          }
+        ]
+      },
+      "triceps-pushdown": {
+        "exerciseId": "triceps-pushdown",
+        "primaryTitle": "Triceps Pushdown",
+        "sourcePage": 15,
+        "imageIndex": 43,
+        "path": "figures/p15-43.png",
+        "width": 1038,
+        "height": 549,
+        "sha256": "312838e72f26689a427b4768aaf3bad7bd5b34e37e8c2f9b8bd8039f4c54eda1",
+        "videoLinks": [
+          {
+            "url": "https://youtube.com/shorts/u36jNfqh8_U?si=QoYfsy_JUdKulO7p",
+            "rectPercent": [
+              4.506025,
+              31.91667,
+              24.698795,
+              46.590909
+            ],
+            "sourcePage": 15,
+            "sourceRect": [
+              54.720001,
+              595.630005,
+              116.220001,
+              657.130005
+            ]
+          }
+        ]
+      }
+    },
+    "17": {
+      "cable-crunch": {
+        "exerciseId": "cable-crunch",
+        "primaryTitle": "Cable Crunch",
+        "sourcePage": 17,
+        "imageIndex": 1,
+        "path": "figures/p17-01.png",
+        "width": 1038,
+        "height": 550,
+        "sha256": "d7a2ebc6f6bd3e1ac137df38c4e422ab4d14c5f47b7ba7fb099ade78815149d9",
+        "videoLinks": [
+          {
+            "url": "https://youtube.com/shorts/ByZJuk85YuE?si=OPBBD7gBfB1U0keq",
+            "rectPercent": [
+              4.497997,
+              31.462236,
+              24.698795,
+              46.590909
+            ],
+            "sourcePage": 17,
+            "sourceRect": [
+              314.200012,
+              595.030151,
+              375.700012,
+              656.530151
+            ]
+          },
+          {
+            "url": "https://youtube.com/shorts/jpXMUpU5Q7A?si=Rt7TWb43mlENVLpC",
+            "rectPercent": [
+              38.232937,
+              31.45456,
+              24.698795,
+              46.590909
+            ],
+            "sourcePage": 17,
+            "sourceRect": [
+              398.200012,
+              595.02002,
+              459.700012,
+              656.52002
+            ]
+          }
+        ]
+      },
+      "leg-extension": {
+        "exerciseId": "leg-extension",
+        "primaryTitle": "Leg Extension",
+        "sourcePage": 17,
+        "imageIndex": 4,
+        "path": "figures/p17-04.png",
+        "width": 1038,
+        "height": 550,
+        "sha256": "fe34e7cc2ae6bc978f0a6ec4c1350ba28b8e7f0e2254e2f57c6d3f1c91b62805",
+        "videoLinks": [
+          {
+            "url": "https://youtu.be/MpEydcQ1oDw?si=qYCD55tG1uBWgPe1",
+            "rectPercent": [
+              4.497992,
+              31.462282,
+              24.698794,
+              46.590909
+            ],
+            "sourcePage": 17,
+            "sourceRect": [
+              54.700001,
+              167.530212,
+              116.199997,
+              229.030212
+            ]
+          }
+        ]
+      },
+      "plank": {
+        "exerciseId": "plank",
+        "primaryTitle": "Plank",
+        "sourcePage": 17,
+        "imageIndex": 6,
+        "path": "figures/p17-06.png",
+        "width": 1038,
+        "height": 550,
+        "sha256": "ba65eb82268f8e02a896074517574dcd1185a3ceedb60db1214fcbd9d224158f",
+        "videoLinks": [
+          {
+            "url": "https://youtube.com/shorts/5gU3pyrkv-E?si=HKndzFZnLauJy5-j",
+            "rectPercent": [
+              4.297189,
+              31.462236,
+              24.698794,
+              46.590909
+            ],
+            "sourcePage": 17,
+            "sourceRect": [
+              54.200001,
+              595.030151,
+              115.699997,
+              656.530151
+            ]
+          }
+        ]
+      },
+      "leg-press": {
+        "exerciseId": "leg-press",
+        "primaryTitle": "Leg Press",
+        "sourcePage": 17,
+        "imageIndex": 7,
+        "path": "figures/p17-07.png",
+        "width": 1038,
+        "height": 550,
+        "sha256": "8a176d8db0f4f2aa624a3b271485369b36f2c90f064c569aefab2fb5936842fd",
+        "videoLinks": [
+          {
+            "url": "https://youtube.com/shorts/ahaJTts1f3s?si=N7sIz5gAQATAxBy1",
+            "rectPercent": [
+              4.497997,
+              31.84107,
+              24.698795,
+              46.590909
+            ],
+            "sourcePage": 17,
+            "sourceRect": [
+              314.200012,
+              168.030212,
+              375.700012,
+              229.530212
+            ]
+          },
+          {
+            "url": "https://youtube.com/shorts/-ol9-bZ_SJc?si=v48CfmDfvC2llTi9",
+            "rectPercent": [
+              38.232937,
+              31.833302,
+              24.698795,
+              46.590909
+            ],
+            "sourcePage": 17,
+            "sourceRect": [
+              398.200012,
+              168.019958,
+              459.700012,
+              229.519958
+            ]
+          }
+        ]
+      },
+      "lying-leg-curl": {
+        "exerciseId": "lying-leg-curl",
+        "primaryTitle": "Lying Leg Curl",
+        "sourcePage": 17,
+        "imageIndex": 8,
+        "path": "figures/p17-08.png",
+        "width": 1038,
+        "height": 550,
+        "sha256": "6f39030fcc7148e1a9591b9235ed2097cc5fa19d175540776931d6e91b750672",
+        "videoLinks": [
+          {
+            "url": "https://youtu.be/SbSNUXPRkc8?si=mKKsibAT3SHCLeQn",
+            "rectPercent": [
+              4.297194,
+              31.462259,
+              24.698795,
+              46.590886
+            ],
+            "sourcePage": 17,
+            "sourceRect": [
+              313.700012,
+              452.530182,
+              375.200012,
+              514.030151
+            ]
+          }
+        ]
+      },
+      "calf-raise": {
+        "exerciseId": "calf-raise",
+        "primaryTitle": "Calf Raise",
+        "sourcePage": 17,
+        "imageIndex": 9,
+        "path": "figures/p17-09.png",
+        "width": 1038,
+        "height": 549,
+        "sha256": "accb44c00b0a530e0933147a2a5ee785aa121b8243820b79f2c18404506d0d28",
+        "videoLinks": [
+          {
+            "url": "https://youtube.com/shorts/xwszHjl2D40?si=dsjRUo-s0eYb5PII",
+            "rectPercent": [
+              4.497992,
+              31.841047,
+              24.698794,
+              46.590886
+            ],
+            "sourcePage": 17,
+            "sourceRect": [
+              54.700001,
+              453.030182,
+              116.199997,
+              514.530151
+            ]
+          },
+          {
+            "url": "https://youtube.com/shorts/S2yhz3klwdU?si=xJHi4VTiiCeKY9ro",
+            "rectPercent": [
+              38.232931,
+              31.841047,
+              24.698795,
+              46.590886
+            ],
+            "sourcePage": 17,
+            "sourceRect": [
+              138.699997,
+              453.030182,
+              200.199997,
+              514.530151
+            ]
+          }
+        ]
+      },
+      "hip-thrust": {
+        "exerciseId": "hip-thrust",
+        "primaryTitle": "Hip Thrust",
+        "sourcePage": 17,
+        "imageIndex": 16,
+        "path": "figures/p17-16.png",
+        "width": 1038,
+        "height": 549,
+        "sha256": "c98ca0f5ec081c5cd5cb3b2b36d0a380ef02459b54b31b8abcf68e643abdf47d",
+        "videoLinks": [
+          {
+            "url": "https://youtu.be/5S8SApGU_Lk?si=sSXx0WadUZFLyziR",
+            "rectPercent": [
+              4.297189,
+              31.818205,
+              24.698794,
+              46.590909
+            ],
+            "sourcePage": 17,
+            "sourceRect": [
+              54.200001,
+              310.5,
+              115.699997,
+              372.0
+            ]
+          }
+        ]
+      },
+      "romanian-deadlift": {
+        "exerciseId": "romanian-deadlift",
+        "primaryTitle": "Romanian Deadlift",
+        "sourcePage": 17,
+        "imageIndex": 21,
+        "path": "figures/p17-21.png",
+        "width": 1038,
+        "height": 549,
+        "sha256": "65bd3480deba9bf8ae7b9864eb49a5a8289ee5b2788fcb306c535c0226735cf6",
+        "videoLinks": [
+          {
+            "url": "https://youtube.com/shorts/g5u75sgpn04?si=Et8OE0RdMWEl7nte",
+            "rectPercent": [
+              4.297194,
+              31.818205,
+              24.698795,
+              46.590909
+            ],
+            "sourcePage": 17,
+            "sourceRect": [
+              313.700012,
+              310.5,
+              375.200012,
+              372.0
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "notes": [
+    "Card ordinals are from their source page, not a universal exercise number.",
+    "Source page11 Seated Row card has clipped right-dose area; complete unchanged page15 card is used for independent exercise display.",
+    "Page23/28 Upper repeat page15; page25/30 Lower repeat page17."
+  ],
+  "linksSource": "Original PDF /Link URI annotations, matched to the byte-identical image rectangle; left illustration is primary and right illustration is its alternative. Source links restored without claiming video availability or professional verification."
+}
