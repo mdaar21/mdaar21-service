@@ -4,14 +4,32 @@
   "main": "cloudflare/worker.mjs",
   "compatibility_date": "2026-10-23",
   "workers_dev": true,
-  "secrets": {"required": ["GROQ_API_KEY"]},
-  "observability": {"enabled": false},
+  "secrets": {
+    "required": [
+      "GROQ_API_KEY"
+    ]
+  },
+  "observability": {
+    "enabled": false
+  },
   "vars": {
-    "ALLOWED_ORIGIN": "https://nbbttdhnybnnb-crypto.github.io",
+    "ALLOWED_ORIGIN": "https://mdaar21.github.io",
     "GROQ_MODEL": "llama-3.3-70b-versatile"
   },
   "durable_objects": {
-    "bindings": [{"name": "MDAAR_GUARD", "class_name": "MdaarGuard"}]
+    "bindings": [
+      {
+        "name": "MDAAR_GUARD",
+        "class_name": "MdaarGuard"
+      }
+    ]
   },
-  "migrations": [{"tag": "v1", "new_sqlite_classes": ["MdaarGuard"]}]
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_sqlite_classes": [
+        "MdaarGuard"
+      ]
+    }
+  ]
 }
