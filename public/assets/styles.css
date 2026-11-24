@@ -201,3 +201,13 @@ button{touch-action:manipulation;transition:background .18s,color .18s,transform
 /* Put the meals within reach without burying the provenance or filters. */
 .recipe-search-panel .library-heading{margin-bottom:10px}.recipe-search-panel .library-heading h2{margin-bottom:3px;line-height:1.5}.recipe-search-panel .library-count{height:70px;width:74px}.recipe-search-panel>p{font-size:.84rem;line-height:1.9;color:#c1baaa;margin:0 0 17px;max-width:80ch}.recipe-search-panel .recipe-filter-grid{margin-bottom:13px!important}.recipe-search-panel .recipe-filter-grid>label{margin-bottom:0!important}.recipe-search-panel .library-filter-footer{padding-top:13px;margin-top:0;margin-bottom:10px}.recipe-search-panel .library-filter-footer p{margin:0;font-size:.75rem}.recipe-search-panel .nutrition-source-details{font-size:.71rem}.recipe-search-panel .recipe-advanced-filters{margin-bottom:12px}.recipe-search-panel .recipe-advanced-filters>div{padding-bottom:8px}
 @media(max-width:600px){.recipe-search-panel .library-count{width:61px;height:65px}.recipe-search-panel .library-heading h2{font-size:1.35rem;line-height:1.65}.recipe-search-panel .library-heading{margin-bottom:15px}.recipe-search-panel>p{font-size:.77rem;margin-bottom:16px}.recipe-search-panel .recipe-filter-grid{margin-bottom:15px!important}.recipe-search-panel .library-filter-footer{padding-top:12px;padding-bottom:0;margin-bottom:12px}.recipe-search-panel .nutrition-source-details{font-size:.67rem}}
+
+/* Touch targets (>=44px) and minimum readable text (>=12px). Issue #3. */
+body.mdaar-experience .hint button,body.mdaar-experience .text-action{min-height:44px;display:inline-flex;align-items:center}
+body.mdaar-experience summary{min-height:44px;box-sizing:border-box;padding-block:.65rem}
+body.mdaar-experience .tabs button,body.mdaar-experience .seg2 button{min-height:44px}
+body.mdaar-experience label:has(>input[type=checkbox]){min-height:44px;display:inline-flex;align-items:center;gap:8px}
+body.mdaar-experience .hint,body.mdaar-experience .mc,body.mdaar-experience .nutrition-source-details,body.mdaar-experience .recipe-search-panel>p,body.mdaar-experience .recipe-advanced-filters summary,body.mdaar-experience .rc summary{font-size:max(.8rem,12.8px)}
+@media(max-width:600px){body.mdaar-experience .hint,body.mdaar-experience .mc,body.mdaar-experience .recipe-search-panel .nutrition-source-details,body.mdaar-experience .recipe-search-panel>p,body.mdaar-experience .recipe-advanced-filters summary{font-size:max(.8rem,12.8px)}}
+body.mdaar-experience .recipe-detail summary{font-size:max(.8rem,12.8px)!important}
+body.mdaar-experience .recipe-favorite{min-height:44px}
